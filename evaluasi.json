@@ -1,0 +1,182 @@
+[{
+    "soal0": {
+        "soal": "Berikut yang merupakan ekosistem alami adalah ....",
+        "a": "a. Hutan produksi dan waduk",
+        "b": "b. Kolam dan kebun",
+        "c": "c. Sawah dan pantai",
+        "d": "d. Pantai dan gurun",
+        "benar": "d"
+    }
+},{
+    "soal1": {
+        "soal":"Perhatikan ciri-ciri ekosistem berikut !<br>(1) Tumbuhan didominasi pohon berdaun lebat<br>(2) Curah hujan tinggi dan tanah sangat subur<br>(3) Banyak hewan, khususnya mamalia, yang tinggal di dalamnya<br>(4) Selalu mendapatkan sinar matahari sepanjang tahun<br>Ekosistem yang memiliki ciri-ciri tersebut adalah ekosistem ....",
+        "a": "a. Hutan hujan tropis",
+        "b": "b. Hutan empat musim",
+        "c": "c. Hutan taiga",
+        "d": "d. Padang rumput",
+        "benar": "a"        
+    }        
+},{
+    "soal2": {
+        "soal": "Hutan dan sungai termasuk jenis ekosistem ....",
+        "a": "a. Buatan",
+        "b": "b. Pegunungan",
+        "c": "c. Alami",
+        "d": "d. Liar",
+        "benar": "c"
+    }
+},{
+    "soal3": {
+        "soal": "Urutan komponen biotik yang benar adalah ....",
+        "a": "a. Komunitas - individu - populasi",
+        "b": "b. Individu - komunitas - populasi",
+        "c": "c. Individu - populasi - komunitas",
+        "d": "d. Populasi - individu - komunitas",
+        "benar": "c"
+    }
+},{
+    "soal4": {
+        "soal": "Perhatikan komponen ekosistem berikut !<br>(1) Cahaya matahari<br>(2) Suhu<br>(3) Udara<br>(4) Padang rumput<br>(5) Terumbu karang<br>Komponen ekosistem abiotik ditunjukkan oleh nomor ....",
+        "a": "a. (1), (2), dan (3)",
+        "b": "b. (1), (3), dan (4)",
+        "c": "c. (2), (3), dan (5)",
+        "d": "d. (3), (4), dan (5)",
+        "benar": "a"
+    }
+},{    
+    "soal5": {
+        "soal": "Perhatikan gambar berikut!<br><img src='./img/Soal 6 Evaluasi.png' style='width: 45%'><br>Gambar yang menunjukkan komunitas dan populasi secara berturut-turut di tunjukkan oleh nomor ....",
+        "a": "a. 1 dan 2",
+        "b": "b. 1 dan 3",
+        "c": "c. 2 dan 3",
+        "d": "d. 3 dan 2",
+        "benar": "d"
+    }
+},{ 
+    "soal6": {
+        "soal": "Simbiosis yang terjadi antara ikan hiu dan ikan remora adalah simbiosis ... karena ....",
+        "a": "a. Komensalisme; ikan remora diuntungkan dan ikan hiu tidak dirugikan atau diuntungkan",
+        "b": "b. Mutualisme; kedua makhluk hidup sama-sama diuntungkan",
+        "c": "c. Parasitisme; kedua makhluk hidup sama-sama dirugikan",
+        "d": "d. Parasitisme; ikan hiu diuntungkan dan ikan remora dirugikan",
+        "benar": "a"
+    }
+},{ 
+    "soal7": {
+        "soal": "Berikut yang termasuk simbiosis komensalisme adalah ....",
+        "a": "a. Zebra dimangsa oleh singa",
+        "b": "b. Nyamuk menghisap darah manusia",
+        "c": "c. Ikan badut hidup di anemon laut",
+        "d": "d. Anggrek hidup menempel di tumbuhan inang",
+        "benar": "c"
+    }
+},{ 
+    "soal8": {
+        "soal": "Perhatikan gambar dibawah ini!<br><img src='./img/Soal 9 Evaluasi.jpg' style='width: 45%'><br>Bentuk simbiosis yang terdapat pada gambar diatas adalah ....",
+        "a": "a. Mutualisme",
+        "b": "b. Parasitisme",
+        "c": "c. Komensalisme",
+        "d": "d. Predatorisme",
+        "benar": "b"
+    }
+},{
+    "soal9": {
+        "soal": "Susunan gigi pada hewan omnivora adalah ....",
+        "a": "a. Geraham dan taring",
+        "b": "b. Taring dan seri",
+        "c": "c. Geraham dan seri",
+        "d": "d. Geraham, seri dan taring",
+        "benar": "d"
+    }
+},{
+    "soal10": {
+        "soal": "Hewan pemakan tumbuhan disebut ....",
+        "a": "a. Omnivora",
+        "b": "b. Karnivora",
+        "c": "c. Herbivora",
+        "d": "d. Dekomposer",
+        "benar": "c"
+    }
+},{
+    "soal11": {
+        "soal":"Contoh hewan yang termasuk kategori herbivora adalah ....",
+        "a": "a. Kambing, zebra, dan harimau",
+        "b": "b. Kambing, zebra, dan kelinci",
+        "c": "c. Kucing, zebra, dan kelinci",
+        "d": "d. Singa, zebra, dan kelinci",
+        "benar": "b"        
+    }        
+},{
+    "soal12": {
+        "soal": "Kumpulan beberapa rantai makanan disebut dengan ....",
+        "a": "a. Ekosistem",
+        "b": "b. Populasi",
+        "c": "c. Komunitas",
+        "d": "d. Jaring-jaring makanan",
+        "benar": "d"
+    }
+},{
+    "soal13": {
+        "soal": "Perhatikan makhluk hidup berikut!<br>(1) Jagung<br>(2) Ulat<br>(3) Belalang<br>(4) Katak<br>(5) Burung pipit<br>(6) Ular<br>Rantai makanan yang terbentuk dari makhluk hidup tersebut adalah ....",
+        "a": "a. Jagung - belalang - ular - burung pipit",
+        "b": "b. Jagung - belalang - katak - ular",
+        "c": "c. Jagung - ulat - burung pipit - katak",
+        "d": "d. Jagung - ulat - ular - belalang",
+        "benar": "b"
+    }
+},{
+    "soal14": {
+        "soal": "Perhatikan gambar berikut!<br><img src='./img/Soal 15 Evaluasi.png' style='width: 45%'><br>Peran makhluk hidup pada gambar adalah sebagai ....",
+        "a": "a. Konsumen III",
+        "b": "b. Konsumen II",
+        "c": "c. Konsumen I",
+        "d": "d. Produsen",
+        "benar": "d"
+    }
+},{    
+    "soal15": {
+        "soal": "Rantai makanan yang terdapat di danau adalah ....",
+        "a": "a. Rumput - ikan duyung - ikan hiu - burung camar",
+        "b": "b. Plankton - ikan kecil - ikan besar - burung pemakan ikan",
+        "c": "c. Semak - belalang - bunglon - burung hantu",
+        "d": "d. Pohon jati - ulat - burung pipit - ular",
+        "benar": "b"
+    }
+},{ 
+    "soal16": {
+        "soal": "Perhatikan gambar dibawah ini!<br><img src='./img/Soal 17 Evaluasi.png' style='width: 45%'><br>Berdasarkan jaring-jaring makanan tersebut, ulat dan ular berturut-turut berperan sebagai ....",
+        "a": "a. Produsen dan konsumen tingkat II",
+        "b": "b. Konsumen tingkat I dan konsumen tingkat II",
+        "c": "c. Konsumen tingkat I dan konsumen tingkat III",
+        "d": "d. Konsumen tingkat II dan konsumen puncak",
+        "benar": "c"
+    }
+},{ 
+    "soal17": {
+        "soal": "Kutu yang hinggap ditubuh hewan dan menghisap darah hewan yang dihinggapinya adalah contoh dari simbiosis ....",
+        "a": "a. Parasitisme",
+        "b": "b. Mutualisme",
+        "c": "c. Komunitasisme",
+        "d": "d. Komensalisme",
+        "benar": "a"
+    }
+},{ 
+    "soal18": {
+        "soal": "Perhatikan gambar piramida makanan berikut ini!<br><img src='./img/Soal 19 Evaluasi.png' style='width: 45%'><br>Jika konsumen tingkat I punah, maka akan mengakibatkan tingkat ....",
+        "a": "a. Konsumen II meningkat, produsen menurun dan konsumen III menurun",
+        "b": "b. Konsumen II menurun, produsen meningkat dan konsumen III menurun",
+        "c": "c. Konsumen II menurun, produsen meningkat dan konsumen III meningkat",
+        "d": "d. Produsen menurun, konsumen II meningkat dan konsumen III meningkat",
+        "benar": "b"
+    }
+},{
+    "soal19": {
+        "soal": "Hewan yang memakan hewan lain dalam suatu rantai makanan disebut ....",
+        "a": "a. Produsen II",
+        "b": "b. Produsen I",
+        "c": "c. Konsumen I",
+        "d": "d. Konsumen II",
+        "benar": "d"
+    }
+}
+]

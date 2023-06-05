@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKOSISTEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Materi.css">
+</head>
+
+<body>   
+    <div class="semua">
+        <!-- Header -->
+        <div class="atas">
+            <h1>EKOSISTEM</h1>
+        </div>
+        <div class="menu">
+            <div class="ham">
+                <a href="#"><img src="hamburger42.png"></a>
+            </div>
+            <div class="home">
+                <a href="Home.html"><img src="Home32.png"></a>
+            </div>
+        </div>
+        <div class="sidenav" id="sidenav">
+            <button class="dropdown-btn">A. Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Materi.html">1. Jenis Ekosistem</a>
+                    <a href="Komponen Ekosistem.html">2. Komponen Ekosistem</a>
+                    <a href="Latihan 1.html">Kuis 1</a>
+                </div>
+            <button class="dropdown-btn">B. Hubungan Antarmakhluk Hidup<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container" id="hubungan">
+                    <a href="Simbiosis 1.html" class="hidup">1. Simbiosis</a>
+                    <a href="Penggolongan 1.html">2. Penggolongan Hewan Berdasarkan Jenis Makanannya</a>
+                    <a href="Latihan 2.html">Kuis 2</a>
+                </div>
+            <button class="dropdown-btn">C. Keseimbangan Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a onclick="materi3()">1. Rantai Makanan dan Jaring-jaring Makanan<img src="Kunci24.png"></a>
+                    <a onclick="materi32()">2. Piramida Makanan<img src="Kunci24.png"></a>
+                    <a onclick="kuis3()">Kuis 3<img src="Kunci24.png"></a>
+                </div>
+                <a onclick="evaluasi()">Evaluasi<img src="Kunci24.png"></a>
+        </div>
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center>
+                <h2>Ekosistem</h2>
+            </center>
+        </div>
+        <!-- Isi -->
+        <div class="konten" id="konten">
+            <!-- Tujuan -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                    <p>Tujuan Pembelajaran</p>
+                </nav>
+                <div class="atasa">
+                    <div class="tujuan">
+                        <ol>
+                            <li>Siswa mampu menjelaskan beberapa jenis hubungan antarmakhluk hidup (Simbiosis).</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3>Simbiosis</h3>
+            <div class="penjelasan">
+                <br>
+                <center>
+                    <video id="vidio" controls style="width:60%;">
+                        <source src="https://ia601601.us.archive.org/19/items/simbiosis-komensalisme/Simbiosis%20Komensalisme.mp4">
+                    </video>
+                </center>
+                <br>
+                <p>
+                    c. Simbiosis Komensalisme adalah hubungan antara dua makhluk hidup berbeda jenis, di mana salah satu makhluk hidup mendapat keuntungan,
+                    sedangkan makhluk hidup yang lain tidak untung dan tidak rugi. Contoh simbiosis komensalisme adalah tumbuhan paku tanduk rusa yang hidup menumpang di dahan pohon.
+                    Tumbuhan paku bisa berada di posisi yang memungkinkannya untuk mendapatkan sinar matahari yang cukup. Adapun pohon inang tidak mendapatkan keuntungan atau kerugian dari tumbuhan pake tersebut.
+                </p>
+                <center>
+                    <img class="gambarzoom" id="Imgku7" src="./img/Tanaman Paku.jpg" width="350px">
+                </center>
+                <p style="text-align: center;">
+                    <strong>Gambar 11.</strong>
+                    <i>Tanaman paku merupakan salah satu contoh simbiosis komensalisme. <br> </i>
+                </p>
+                <!-- The Modal -->
+                <div id="myModal7" class="modal">
+                    <span class="close7">&times;</span>
+                    <img class="modal-content" id="img07">
+                    <div id="caption7"></div>
+                </div>
+            </div><br>
+            <h3>Ayo Jawab</h3>
+            <div class="latihan">
+                <div class="petunjuk">
+                    <b>Petunjuk :</b><br><br>
+                    <ol>
+                        <li>Pilihlah salah satu jawaban yang termasuk kedalam Simbiosis Mutualisme, Komensalisme, dan Parasitisme.</li>
+                        <li>Klik pada salah satu tombol untuk memilih jawaban.</li>
+                        <li>Jika jawaban benar maka akan muncul.</li>
+                        <li>Jika jawaban salah maka akan muncul.</li>
+                    </ol>
+                </div>
+                <br>
+                <br>
+                <p><b>Jawablah pertanyaan dibawah ini dan tentukan mana saja yang termasuk kedalam bagian dari Simbiosis Mutualisme, Komensalisme, atau Parasitisme !</b></p>
+                <br>
+                <table class="tabelnya" style="margin-left: 2%;">
+                    <tr>
+                        <td style="text-align: center;font-weight: bold;">No.</td>
+                        <td style="text-align: center;font-weight: bold;">Gambar</td>
+                        <td style="text-align: center;font-weight: bold;">Pertanyaan</td>
+                        <td style="text-align: center;font-weight: bold;">Jawab</td>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td><img class="gambarzoom" id="Imgku18" src="./img/Ikan Badut dan Anemon.jpg" width="150px"><br><p>Ikan Badut dan Anemon</p></td>
+                        <td>Termasuk golongan simbiosis apakah gambar disamping ?</td>
+                        <td class="tdnya">
+                            <center>
+                                <button onclick="mutualisme0()" id="aa1">Mutualisme</button>
+                                <button onclick="komensalisme0()" id="aa2">Komensalisme</button>
+                                <button onclick="parasitisme0()" id="aa3">Parasitisme</button>
+                                <img class="imgbenar" id="cekk"/>
+                                <br><br><div id="aa4" style="display: none;">Jawaban salah, baca kembali materi Simbiosis</div>
+                                <br><br><div id="aa5" style="display: none;">Ikan badut biasa tinggal di tentakel anemon laut. Ikan badut mendapat keuntungan karena terlindung dari pemangsanya, sementara anemon laut tidak akan terganggu dengan keberadaan ikan badut.</div>
+                            </center>
+                        </td>
+                        <!-- The Modal -->
+                        <div id="myModal18" class="modal">
+                            <span class="close18">&times;</span>
+                            <img class="modal-content" id="img18">
+                            <div id="caption18"></div>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><img class="gambarzoom" id="Imgku19" src="./img/Lalat dan Buah.jpg" width="150px"><br><p>Lalat dan Buah</p></td>
+                        <td>Termasuk golongan simbiosis apakah gambar disamping ?</td>
+                        <td>
+                            <center>
+                                <button onclick="mutualisme()" id="ab1">Mutualisme</button>
+                                <button onclick="komensalisme()" id="ab2">Komensalisme</button>
+                                <button onclick="parasitisme()" id="ab3">Parasitisme</button>
+                                <img class="imgbenar" id="cek1"/>
+                                <br><br><div id="ab4" style="display: none;">Jawaban salah, baca kembali materi Simbiosis</div>
+                                <br><br><div id="ab5" style="display: none;">Lalat tinggal di dalam buah. Lalat akan mendapat keuntungan karena memiliki tempat bertelur dan berkembang biak, sementara buah akan dirugikan karena bisa jadi busuk.</div>
+                            </center>
+                        </td>
+                        <!-- The Modal -->
+                        <div id="myModal19" class="modal">
+                            <span class="close19">&times;</span>
+                            <img class="modal-content" id="img19">
+                            <div id="caption19"></div>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td><img class="gambarzoom" id="Imgku20" src="./img/Buaya dan Plover.jpeg" width="150px"><br><p>Buaya dan Burung Plover</p></td>
+                        <td>Termasuk golongan simbiosis apakah gambar disamping ?</td>
+                        <td>
+                            <center>
+                                <!-- <button onclick="positif2()" id="ad1">Positif</button>
+                                <button onclick="negatif2()" id="ad2">Negatif</button> -->
+                                <button onclick="mutualisme2()" id="ac1">Mutualisme</button>
+                                <button onclick="komensalisme2()" id="ac2">Komensalisme</button>
+                                <button onclick="parasitisme2()" id="ac3">Parasitisme</button>
+                                <img class="imgbenar" id="cek2"/>
+                                <br><br><div id="ac4" style="display: none;">Jawaban salah, baca kembali materi Simbiosis</div>
+                                <br><br><div id="ac5" style="display: none;">Burung plover membersihkan kotoran dan sisa makanan di mulut buaya, sementara burung plover mendapatkan makanan.</div>
+                            </center>
+                        </td>
+                        <!-- The Modal -->
+                        <div id="myModal20" class="modal">
+                            <span class="close20">&times;</span>
+                            <img class="modal-content" id="img20">
+                            <div id="caption20"></div>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td><img class="gambarzoom" id="Imgku21" src="./img/Kerbau dan Jalak.jpg" width="150px"><br><p>Kerbau dan Burung Jalak</p></td>
+                        <td>Termasuk golongan simbiosis apakah gambar disamping ?</td>
+                        <td>
+                            <center>                                                            
+                                <button onclick="mutualisme3()" id="ad1">Mutualisme</button>
+                                <button onclick="komensalisme3()" id="ad2">Komensalisme</button>
+                                <button onclick="parasitisme3()" id="ad3">Parasitisme</button>
+                                <img class="imgbenar" id="cek3"/>
+                                <br><br><div id="ad4" style="display: none;">Jawaban salah, baca kembali materi Simbiosis</div>
+                                <br><br><div id="ad5" style="display: none;">Jalak mendapat keuntungan berupa kutu sebagai makanan, sedangkan kerbau merasa nyaman karena tidak gatal.</div>
+                            </center>
+                        </td>
+                        <!-- The Modal -->
+                        <div id="myModal21" class="modal">
+                            <span class="close21">&times;</span>
+                            <img class="modal-content" id="img21">
+                            <div id="caption21"></div>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td><img class="gambarzoom" id="Imgku22" src="./img/Remora dan Ikan Hiu.jpg" width="150px"><br><p>Ikan Remora dan Ikan Hiu</p></td>
+                        <td>Termasuk golongan simbiosis apakah gambar disamping ?</td>
+                        <td>
+                            <center>                                                            
+                                <button onclick="mutualisme4()" id="ae1">Mutualisme</button>
+                                <button onclick="komensalisme4()" id="ae2">Komensalisme</button>
+                                <button onclick="parasitisme4()" id="ae3">Parasitisme</button>
+                                <img class="imgbenar" id="cek4"/>
+                                <br><br><div id="ae4" style="display: none;">Jawaban salah, baca kembali materi Simbiosis</div>
+                                <br><br><div id="ae5" style="display: none;">Ikan-ikan kecil yang disebut remora, menempel pada tubuh ikan hiu. Remora mendapatkan sisa-sisa makanan dari ikan hiu. Selain itu, remora dapat bepergian ke manapun tanpa takut dimangsa oleh ikan-ikan besar lain. Hiu tidak diuntungkan maupun dirugikan.</div>
+                            </center>
+                        </td>
+                        <!-- The Modal -->
+                        <div id="myModal22" class="modal">
+                            <span class="close22">&times;</span>
+                            <img class="modal-content" id="img22">
+                            <div id="caption22"></div>
+                        </div>
+                    </tr>
+                    <!-- <tr>
+                        <td>Penggaris</td>
+                        <td>Kapas</td>
+                        <td>
+                            <center>                                                           
+                                <button onclick="positif5()" id="ae1">Positif</button>
+                                <button onclick="negatif5()" id="ae2">Negatif</button>
+                                <img class="imgbenar" id="cek5"/>
+                                <br><br><div id="ae3" style="display: none;">Jawaban salah, baca kembali deret tribolistrik</div>
+                            </center>
+                        </td>
+                    </tr> -->
+                </table>
+            </div>
+        </div>
+        <!-- Next bawah-->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Simbiosis 3.html"><div class="Lanjut">Back</div></a>
+            <a href="Simbiosis 1.html"><div class="Lanjut">1</div></a>
+            <a href="Simbiosis 2.html"><div class="Lanjut">2</div></a>
+            <a href="Simbiosis 3.html"><div class="Lanjut">3</div></a>
+            <a href="Simbiosis 4.html"><div class="Lanjut aktif_konten">4</div></a>
+            <a href="Penggolongan 1.html"><div class="Lanjut">Next</div></a>
+        </div>
+        <div class="bawah">
+            <p>Copyright &copy; 2022, Fikry Muhammad (1610131310010)</p>
+            <p>Media Pembelajaran IPA Kelas 5 : Ekosistem</p>
+        </div>
+    </div>
+    <script src="JalanMateri.js"></script>
+    <script src="Simbiosis 4 Gambar Zoom.js"></script>
+    <script src="Pertanyaan Simbiosis.js"></script>
+    <script src="Zoom Latihan Simbiosis.js"></script>
+    <script src="Tutorial.js"></script>
+</body>
+</html>

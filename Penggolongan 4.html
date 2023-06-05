@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKOSISTEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Materi.css">
+</head>
+
+<body>   
+    <div class="semua">
+        <!-- Header -->
+        <div class="atas">
+            <h1>EKOSISTEM</h1>
+        </div>
+        <div class="menu">
+            <div class="ham">
+                <a href="#"><img src="hamburger42.png"></a>
+            </div>
+            <div class="home">
+                <a href="Home.html"><img src="Home32.png"></a>
+            </div>
+        </div>
+        <div class="sidenav" id="sidenav">
+            <button class="dropdown-btn">A. Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Materi.html">1. Jenis Ekosistem</a>
+                    <a href="Komponen Ekosistem.html">2. Komponen Ekosistem</a>
+                    <a href="Latihan 1.html">Kuis 1</a>
+                </div>
+            <button class="dropdown-btn">B. Hubungan Antarmakhluk Hidup<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container" id="hubungan">
+                    <a href="Simbiosis 1.html">1. Simbiosis</a>
+                    <a href="Penggolongan 1.html" class="hidup">2. Penggolongan Hewan Berdasarkan Jenis Makanannya</a>
+                    <a href="Latihan 2.html">Kuis 2</a>
+                </div>
+            <button class="dropdown-btn">C. Keseimbangan Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a onclick="materi3()">1. Rantai Makanan dan Jaring-jaring Makanan<img src="Kunci24.png"></a>
+                    <a onclick="materi32()">2. Piramida Makanan<img src="Kunci24.png"></a>
+                    <a onclick="kuis3()">Kuis 3<img src="Kunci24.png"></a>
+                </div>
+                <a onclick="evaluasi()">Evaluasi<img src="Kunci24.png"></a>
+        </div>
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center>
+                <h2>Ekosistem</h2>
+            </center>
+        </div>
+        <!-- Isi -->
+        <div class="konten" id="konten">
+            <!-- Tujuan -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                    <p>Tujuan Pembelajaran</p>
+                </nav>
+                <div class="atasa">
+                    <div class="tujuan">
+                        <ol>
+                            <li>Siswa mampu menentukan pengelompokan hewan berdasarkan dari jenis makanannya.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3>Penggolongan Hewan Berdasarkan Jenis Makanannya</h3>
+            <div class="penjelasan">
+                <br>
+                <center>
+                    <video id="vidio" controls style="width:60%;">
+                        <source src="https://ia802602.us.archive.org/34/items/Omnivora/Omnivora.mp4">
+                    </video>
+                </center>
+                <br>
+                <p>
+                    c. Omnivora kelompok hewan yang makanannya berasal dari tumbuhan maupun hewan lain. Hewan omnivor memiliki susunan gigi tersendiri.
+                    Gigi seri, gigi taring, dan gigi geraham hewan ini berkembang dengan baik untuk menyesuaikan dengan makanannya. Gigi seri dan gigi taring digunakan ketika memakan makanan yang berupa hewan lain.
+                    Sementara itu, gigi seri dan gigi geraham digunakan ketika memakan makanan berupa tumbuhan. Orangutan, gorila, dan monyet, merupakan beberapa contoh hewan yang termasuk dalam kelompok ini.
+                </p>
+                <center>
+                    <img class="gambarzoom" id="Imgku10" src="./img/Omnivora.jpg" width="350px">
+                </center>
+                <!-- The Modal -->
+                <div id="myModal10" class="modal">
+                    <span class="close10">&times;</span>
+                    <img class="modal-content" id="img10">
+                    <div id="caption10"></div>
+                </div>
+                <p style="text-align: center;">
+                    <strong>Gambar 14.</strong>
+                    <i>Tengkorak dan susunan gigi hewan omnivora.</i>
+                </p>
+            </div><br>
+            <h3>Ayo Jawab</h3>
+            <div class="latihan">
+                <div class="petunjuk">
+                    <b>Petunjuk :</b><br><br>
+                    <ol>
+                        <li>Tentukan hewan mana yang masuk kedalam golongan Herbivora, Karnivora, Omnivora.</li>
+                        <li>Klik pada salah satu checkbox untuk memilih jawaban</li>
+                    </ol>
+                </div>
+                <br>
+                <br>
+                <p>Manakah berikut ini yang termasuk ke dalam golongan Herbivora, Karnivora, dan Omnivora ?</p>
+                <br>
+                <table class="tbl">
+                    <tr>
+                        <th class="no">No.</th>
+                        <th class="gambar">Gambar</th>
+                        <th class="jenis">Gambar</th>
+                    </tr>
+                    <!--Soal 1-->
+                    <tr>
+                        <td class="no">1.</td>
+                        <td class="gambar"><img src="./img/Tupai.png" width="130px"><br>
+                            <label><input type="checkbox" id="soal1"><span>Herbivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s1b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s1s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal2"><span>Karnivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s2b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s2s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal3"><span>Omnivora</span></label>
+                            <div style="display: none;" id="s3b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s3s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                        </td>
+                        <td class="gambar"><img src="./img/Harimau.png" width="180px"><br>
+                            <label><input type="checkbox" id="soal4"><span>Herbivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s4b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s4s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal5"><span>Karnivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s5b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s5s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal6"><span>Omnivora</span></label>
+                            <div style="display: none;" id="s6b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s6s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                        </td>
+                    </tr>
+                    
+                    <!--Soal 2-->
+                    <tr>
+                        <td class="no">2.</td>
+                        <td class="gambar"><img src="./img/Gajah.png" width="150px"><br>
+                            <label><input type="checkbox" id="soal7"><span>Herbivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s7b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s7s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal8"><span>Karnivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s8b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s8s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal9"><span>Omnivora</span></label>
+                            <div style="display: none;" id="s9b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s9s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                        </td>
+                        <td class="gambar"><img src="./img/Kelinci.png" width="170px"><br>
+                            <label><input type="checkbox" id="soal10"><span>Herbivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s10b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s10s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal11"><span>Karnivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s11b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s11s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal12"><span>Omnivora</span></label>
+                            <div style="display: none;" id="s12b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s12s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                        </td>
+                    </tr>
+                    
+                    <!--Soal 3-->
+                    <tr>
+                        <td class="no">3.</td>
+                        <td class="gambar"><img src="./img/Ular.png" width="150px"><br>
+                            <label><input type="checkbox" id="soal13"><span>Herbivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s13b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s13s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal14"><span>Karnivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s14b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s14s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal15"><span>Omnivora</span></label>
+                            <div style="display: none;" id="s15b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s15s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                        </td>
+                        <td class="gambar"><img src="./img/Burung Hantu.png" width="150px"><br>
+                            <label><input type="checkbox" id="soal16"><span>Herbivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s16b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s16s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal17"><span>Karnivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s17b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s17s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal18"><span>Omnivora</span></label>
+                            <div style="display: none;" id="s18b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s18s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                        </td>
+                    </tr>
+
+                    <!--Soal 4-->
+                    <tr>
+                        <td class="no">4.</td>
+                        <td class="gambar"><img src="./img/Elang.png" width="150px"><br>
+                            <label><input type="checkbox" id="soal19"><span>Herbivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s19b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s19s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal20"><span>Karnivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s20b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s20s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal21"><span>Omnivora</span></label>
+                            <div style="display: none;" id="s21b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s21s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                        </td>
+                        <td class="gambar"><img src="./img/Ayam.png" width="150px"><br>
+                            <label><input type="checkbox" id="soal22"><span>Herbivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s22b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s22s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal23"><span>Karnivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s23b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s23s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal24"><span>Omnivora</span></label>
+                            <div style="display: none;" id="s24b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s24s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                        </td>
+                    </tr>
+
+                    <!--Soal 5-->
+                    <tr>
+                        <td class="no">5.</td>
+                        <td class="gambar"><img src="./img/Monyet.png" width="150px"><br>
+                            <label><input type="checkbox" id="soal25"><span>Herbivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s25b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s25s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal26"><span>Karnivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s26b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s26s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal27"><span>Omnivora</span></label>
+                            <div style="display: none;" id="s27b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s27s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                        </td>
+                        <td class="gambar"><img src="./img/Tikus.png" width="150px"><br>
+                            <label><input type="checkbox" id="soal28"><span>Herbivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s28b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s28s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal29"><span>Karnivora</span></label>&nbsp;&nbsp;&nbsp;
+                            <div style="display: none;" id="s29b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s29s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                            <label><input type="checkbox" id="soal30"><span>Omnivora</span></label>
+                            <div style="display: none;" id="s30b"><img style="width: 20px;"><img style="width: 20px;" src="benar.png"></div>
+                            <div style="display: none;" id="s30s"><img style="width: 20px;"><img style="width: 20px;" src="salah.png"></div>
+                        </td>
+                        <!-- <td class="jenis" id="pil5" style="font-size: 14px;">
+                            <label><input type="radio" name="pilihan5"><span>Ekosistem Alamiah</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan5" id="s5benar"><span>Ekosistem Buatan</span></label>
+                            <br>
+                        </td> -->
+                    </tr>
+                </table>
+                <br>
+                <center>
+                    <button class="btnvidio" style="background-color: teal;" onclick="ceksoal1();">Cek Jawaban</button>
+                </center> 
+            </div>
+        </div>
+        <!-- Next bawah-->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Penggolongan 3.html"><div class="Lanjut">Back</div></a>
+            <a href="Penggolongan 1.html"><div class="Lanjut">1</div></a>
+            <a href="Penggolongan 2.html"><div class="Lanjut">2</div></a>
+            <a href="Penggolongan 3.html"><div class="Lanjut">3</div></a>
+            <a href="Penggolongan 4.html"><div class="Lanjut aktif_konten">4</div></a>
+            <a href="Latihan 2.html"><div class="Lanjut">Next</div></a>
+        </div>
+        <div class="bawah">
+            <p>Copyright &copy; 2022, Fikry Muhammad (1610131310010)</p>
+            <p>Media Pembelajaran IPA Kelas 5 : Ekosistem</p>
+        </div>
+    </div>
+    <script src="JalanMateri.js"></script>
+    <script src="Penggolongan 4 Gambar Zoom.js"></script>
+    <script src="Pertanyaan Penggolongan.js"></script>
+    <script src="Tutorial.js"></script>
+</body>
+</html>

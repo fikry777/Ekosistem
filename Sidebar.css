@@ -1,0 +1,129 @@
+body {
+  background-color: #241E48;
+}
+
+.home {
+    
+    cursor: pointer;
+    top: 15px;
+    left: 15px;
+    background: blue;
+    padding: 4px;
+}
+
+.home:hover {
+    background: orange;
+}
+
+.tanya {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 15px;
+    background: blue;
+    padding: 4px;
+}
+
+.tanya:hover {
+    background: orange;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Left, .right{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 16%;
+    position: relative;
+}
+.Left .item{
+    width: 200px;
+    height: 100px;
+    background-color: #18142f;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 40px;
+    transition: 0.5s;
+    text-align: center;
+}
+.Left .item img{
+    height: 100%;
+}
+.Left .item:hover{
+    background-color: #5838D1;
+}
+.mockup{
+    width: 800px;
+    height: 657px;
+    background-image: url(Forest.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    position: relative;
+}
+.graphic{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 120px;
+    left: 30%;
+    transform: translate(-50%);
+    /*border: 5px dotted #232020;*/
+    transition: 0.3s;
+}
+.graphic.drag{
+    border: 5px dotted #232020;
+}
+.graphic img{
+    width: 100%;
+}
+.graphic2{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 260px;
+    left: 26%;
+    transform: translate(-50%);
+    border: 5px dotted #232020;
+    transition: 0.3s;
+}
+.graphic2.drag{
+    border: 5px dotted #232020;
+}
+.graphic2 img{
+    width: 100%;
+}
+.graphic3{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 250px;
+    left: 46%;
+    transform: translate(-50%);
+    border: 5px dotted #232020;
+    transition: 0.3s;
+}
+.graphic3.drag{
+    border: 5px dotted #232020;
+}
+.graphic3 img{
+    width: 100%;
+}
+.graphic4{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 240px;
+    left: 80%;
+    transform: translate(-50%);
+    border: 5px dotted #232020;
+    transition: 0.3s;
+}
+.graphic4.drag{
+    border: 5px dotted #232020;
+}
+.graphic4 img{
+    width: 100%;
+}

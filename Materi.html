@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKOSISTEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Materi.css">
+</head>
+
+<body>   
+    <div class="semua">
+        <!-- Header -->
+        <div class="atas">
+            <h1>EKOSISTEM</h1>
+        </div>
+        <div class="menu">
+            <div class="ham">
+                <a href="#"><img src="hamburger42.png"></a>
+            </div>
+            <div class="home">
+                <a href="Home.html"><img src="Home32.png"></a>
+            </div>
+        </div>
+        <div class="sidenav" id="sidenav">
+            <button class="dropdown-btn eko">A. Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container" id="sistem">
+                    <div class="sistem">
+                    <a href="Materi.html" class="hidup">1. Jenis Ekosistem</a>
+                    <a href="Komponen Ekosistem.html">2. Komponen Ekosistem</a>
+                    <a href="Latihan 1.html">Kuis 1</a>
+                    </div>
+                </div>
+            <button class="dropdown-btn">B. Hubungan Antarmakhluk Hidup<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a onclick="materi2()">1. Simbiosis<img src="Kunci24.png"></a>
+                    <a onclick="materi22()">2. Penggolongan Hewan Berdasarkan Jenis Makanannya<img src="Kunci24.png"></a>
+                    <a onclick="kuis2()">Kuis 2<img src="Kunci24.png"></a>
+                </div>
+            <button class="dropdown-btn">C. Keseimbangan Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a onclick="materi3()">1. Rantai Makanan dan Jaring-jaring Makanan<img src="Kunci24.png"></a>
+                    <a onclick="materi32()">2. Piramida Makanan<img src="Kunci24.png"></a>
+                    <a onclick="kuis3()">Kuis 3<img src="Kunci24.png"></a>
+                </div>
+                <a onclick="evaluasi()">Evaluasi<img src="Kunci24.png"></a>
+        </div>
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center>
+                <h2>Ekosistem</h2>
+            </center>
+        </div>
+        <!-- Isi -->
+        <div class="konten" id="konten">
+            <!-- Tujuan -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                    <p>Tujuan Pembelajaran</p>
+                </nav>
+                <div class="atasa">
+                    <div class="tujuan">
+                        <ol>
+                            <li>Siswa mampu menjelaskan apa saja jenis ekosistem.</li>
+                            <li>Siswa mampu mengidentifikasi jenis-jenis ekosistem dengan benar.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3>Jenis Ekosistem</h3>
+            <div class="penjelasan">
+                <br>
+                <center>
+                    <video id="vidio" controls style="width:60%;">
+                        <source src="https://ia801601.us.archive.org/9/items/jenis-jenis-ekosistem/Jenis-Jenis%20Ekosistem.mp4">
+                    </video>
+                </center>
+                <br>
+                <p>
+                    Ada dua macam ekosistem di bumi kita, yaitu ekosistem alami dan ekosistem buatan:
+                </p>
+                <p>
+                    <b>a. Ekosistem Alami</b>
+                </p>
+                <p style="text-indent: 45px;">
+                    Ekosistem alami adalah ekosistem yang terbentuk dengan sendirinya tanpa campur tangan manusia, diciptakan oleh Tuhan.
+                    Ekosistem alami beragam, beberapa jenis ekosistem antara lain: darat dan air.
+                </p>
+                <br>
+                <li>
+                    Ekosistem Darat
+                    <br>
+                    <p>
+                        Ekosistem yang sebagian besar isinya adalah daratan. Setiap daratan dibumi memiliki ciri khas masing-masing,
+                        mewakili tempat serta iklim yang dimiliki setiap ekosistem. Ekosistem ini juga bisa disebut sebagai bioma,
+                        seperti bioma hutan hujan tropis, hutan gugur, dan sabana.
+                    </p>
+                    <center>
+                        <img class="gambarzoom" id="Imgku1" src="./img/Hutan tropis.jpg" alt="Hutan" width="350px" height="230px">
+                    </center>
+                    <p style="text-align: center;">
+                        <strong>Gambar 1.</strong>
+                        <i>Ekosistem alami darat hutan hujan tropis. <br> </i>
+                    </p>
+                </li>
+                <br>
+                <li>
+                    Ekosistem Air
+                    <br>
+                    <p>
+                        Ekosistem air adalah lingkungan yang terdiri dari komponen biotik dan abiotik serta didominasi oleh air sebagai
+                        habitat dari komponennya. Ekosistem ini dihuni oleh beragam makhluk yang hidupnya di air ataupun di dua alam (air dan darat). 
+                        Makhluk hidup ini bisa berupa binatang dan tumbuhan. Pada ekosistem ini cahaya matahari terbatas, hal ini karena sulitnya cahaya matahari 
+                        menembus perairan. Sehingga perubahan suhu tidak ekstrim. Ekosistem air terbagi menjadi 2, yaitu ekosistem air tawar dan ekosistem air laut.
+                    </p>
+                    <center>
+                        <img class="gambarzoom" id="" src="./img/Ekosistem Danau.jpg" alt="Hutan" width="350px" height="230px">
+                        <img class="gambarzoom" id="" src="./img/Ekosistem Laut.jpg" alt="Sawah" width="350px" height="230px">
+                    </center>
+                    <p style="text-align: center;">
+                        <strong>Gambar 2 dan 3.</strong>
+                        <i>Danau ekosistem alami air tawar dan Laut ekosistem alami air laut. <br> </i>
+                    </p>
+                    <!-- <p>
+                        a. Ekosistem air tawar adalah suatu tatanan yang ada di dalam air tawar dan sekitarnya yang terdiri dari makhluk hidup di dalamnya
+                        dan lingkunga air tawar itu sendiri. Ekosistem ini disebut juga perairan darat. Ciri-ciri ekosistem ini antara lain variasi suhu tidak mencolok,
+                        penetrasi cahaya kurang, dan terpengaruh oleh iklim dan cuaca.
+                    </p>
+                    <p>
+                        b. Ekosistem laut adalah ekosistem perairan terbesar di bumi. Memiliki kandungan garam tinggi. Ekosistem laut ini terdiri atas beberapa bagian dilihat dari jarak pantai dan kedalamannya. Zona pasang surut, merupakan
+                        zona yang paling dangkal dari lautan. Di zona ini, hidup binatang laut, udang, kepiting, bulu babi, hingga cacing laut. Zona neritik dengan kedalaman
+                        200 meter, dapat ditembus oleh cahaya matahari sampai dasar. Merupakan zona yang dihuni tumbuhan ganggang, rumput laut, dan ikan.
+                    </p> -->
+                </li>
+                <br>
+                <p>
+                    <b>b. Ekosistem Buatan</b>
+                </p>
+                <p style="text-indent: 45px;">
+                    Ekosistem buatan adalah sebuah kondisi lingkungan dimana seseorang memang dengan sengaja dibentuk atau dibuat untuk membantu kelangsungan hidup hewan
+                    lainnya dan lingkungan. Ekosistem buatan beragam, beberapa jenis ekosistem buatan antara lain: bendungan, persawahan, waduk.
+                </p><br>
+                <center>
+                    <img class="gambarzoom" id="Imgku1" src="./img/Bendungan.jpg" alt="Hutan" width="350px" height="230px">
+                    <img class="gambarzoom" id="Imgku2" src="./img/Sawah.jpg" alt="Sawah" width="350px" height="230px">
+                </center>
+                <p style="text-align: center;">
+                    <strong>Gambar 4 dan 5.</strong>
+                    <i>Ekosistem buatan ekosistem bendungan dan ekosistem sawah. <br> </i>
+                </p>
+                <!-- <center>
+                    <img class="gambarzoom" id="Imgku1" src="./img/Hutan tropis.jpg" alt="Hutan" width="350px">
+                    <img class="gambarzoom" id="Imgku2" src="./img/Sawah.jpg" alt="Sawah" width="350px" height="232px">
+                </center> -->
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <span class="close1">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+                <!-- The Modal -->
+                <div id="myModal2" class="modal">
+                    <span class="close2">&times;</span>
+                    <img class="modal-content" id="img02">
+                    <div id="caption2"></div>
+                </div>
+                <!-- <p style="text-align: center;">
+                    <strong>Gambar 1 dan 2</strong>
+                    <i>Hutan dan Sawah</i>
+                </p> -->
+            </div><br>
+            <h3>Ayo Jawab</h3>
+            <div class="latihan">
+                <div class="petunjuk">
+                    <b>Petunjuk :</b><br><br>
+                    <ol>
+                        <li>Tentukan mana saja yang masuk kedalam Ekosistem Alami dan Ekosistem Buatan.</li>
+                        <li>Klik pada salah satu tombol untuk memilih jawaban.</li>
+                        <li>Setelah selesai klik tombol Cek Jawaban untuk melihat hasil jawaban.</li>
+                    </ol>
+                </div>
+                <br>
+                <br>
+                <p>Manakah berikut ini yang termasuk ke dalam Ekosistem Alami dan Ekosistem Buatan ?</p>
+                <br>
+                <table class="tbl">
+                    <tr>
+                        <th class="no" style="width: 7%;">No.</th>
+                        <th class="gambar">Gambar</th>
+                        <th class="jenis">Kategori</th>
+                    </tr>
+                    <!--Soal 1-->
+                    <tr>
+                        <td class="no">1.</td>
+                        <td class="gambar"><img class="gambarzoom" id="Imgku13" src="./img/Perkebunan Sawit.jpg" width="150px"><br><p>Perkebunan Sawit</p></td>
+                        <td class="jenis" id="pil1" style="font-size: 14px;">
+                            <label><input type="radio" name="pilihan1"><span>Ekosistem Alami</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan1" id="s1benar"><span>Ekosistem Buatan</span></label>
+                            <br>
+                        </td>
+                        <div id="myModal13" class="modal">
+                            <span class="close13">&times;</span>
+                            <img class="modal-content" id="img13">
+                            <div id="caption13"></div>
+                        </div>
+                    </tr>
+                    
+                    <!--Soal 2-->
+                    <tr>
+                        <td class="no">2.</td>
+                        <td class="gambar"><img class="gambarzoom" id="Imgku14" src="./img/Sungai.jpg" width="150px"><br><p>Sungai</p></td>
+                        <td class="jenis" id="pil2" style="font-size: 14px;">
+                            <label><input type="radio" name="pilihan2"  id="s2benar"><span>Ekosistem Alami</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan2"><span>Ekosistem Buatan</span></label>
+                            <br>
+                        </td>
+                        <div id="myModal14" class="modal">
+                            <span class="close14">&times;</span>
+                            <img class="modal-content" id="img14">
+                            <div id="caption14"></div>
+                        </div>
+                    </tr>
+                    
+                    <!--Soal 3-->
+                    <tr>
+                        <td class="no">3.</td>
+                        <td class="gambar"><img class="gambarzoom" id="Imgku15" src="./img/Savana.jpg" width="150px"><br><p>Sabana</p></td>
+                        <td class="jenis" id="pil3" style="font-size: 14px;">
+                            <label><input type="radio" name="pilihan3" id="s3benar"><span>Ekosistem Alami</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan3"><span>Ekosistem Buatan</span></label>
+                            <br>
+                        </td>
+                        <div id="myModal15" class="modal">
+                            <span class="close15">&times;</span>
+                            <img class="modal-content" id="img15">
+                            <div id="caption15"></div>
+                        </div>
+                    </tr>
+
+                    <!--Soal 4-->
+                    <tr>
+                        <td class="no">4.</td>
+                        <td class="gambar"><img class="gambarzoom" id="Imgku16" src="./img/Laut.jpg" width="150px"><br><p>Laut</p></td>
+                        <td class="jenis" id="pil4" style="font-size: 14px;">
+                            <label><input type="radio" name="pilihan4" id="s4benar"><span>Ekosistem Alami</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan4"><span>Ekosistem Buatan</span></label>
+                            <br>
+                        </td>
+                        <div id="myModal16" class="modal">
+                            <span class="close16">&times;</span>
+                            <img class="modal-content" id="img16">
+                            <div id="caption16"></div>
+                        </div>
+                    </tr>
+
+                    <!--Soal 5-->
+                    <tr>
+                        <td class="no">5.</td>
+                        <td class="gambar"><img class="gambarzoom" id="Imgku17" src="./img/Aquarium.jpg" width="150px"><br><p>Akuarium</p></td>
+                        <td class="jenis" id="pil5" style="font-size: 14px;">
+                            <label><input type="radio" name="pilihan5"><span>Ekosistem Alami</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan5" id="s5benar"><span>Ekosistem Buatan</span></label>
+                            <br>
+                        </td>
+                        <div id="myModal17" class="modal">
+                            <span class="close17">&times;</span>
+                            <img class="modal-content" id="img17">
+                            <div id="caption17"></div>
+                        </div>
+                    </tr>
+                </table>
+                <br>
+                <center>
+                    <button class="btnvidio" onclick="ceksoal4();">Cek Jawaban</button>
+                </center> 
+            </div>
+        </div>
+        <!-- Next bawah-->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Materi.html"><div class="Lanjut disable">Back</div></a>
+            <a href="Materi.html"><div class="Lanjut aktif_konten">1</div></a>
+            <a href="Komponen Ekosistem.html"><div class="Lanjut">Next</div></a>
+        </div>
+        <div class="bawah">
+            <p>Copyright &copy; 2022, Fikry Muhammad (1610131310010)</p>
+            <p>Media Pembelajaran IPA Kelas 5 : Ekosistem</p>
+        </div>
+    </div>
+    <script src="JalanMateri.js"></script>
+    <script src="Pertanyaan Jenis.js"></script>
+    <script src="Zoom Latihan Jenis.js"></script>
+    <script src="Tutorial.js"></script>
+</body>
+</html>

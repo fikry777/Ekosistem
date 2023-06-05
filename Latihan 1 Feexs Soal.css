@@ -1,0 +1,310 @@
+.kiri {
+    float: left;
+    width: 69%;
+    background-color: white;
+    height: 90vh;
+    overflow: auto;
+    padding-left: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    margin-top: 0;
+    border-radius: 15px;
+}
+
+.kiri {
+    background-color: white;
+    padding: 15px;
+    text-align: justify;
+    /*margin-top: -1px;*/
+    }
+
+article {
+    width: fit-content;
+    text-align: center;
+    background-color: #6ECB63;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+article .count {
+    padding: 5px;
+}
+
+article #timer {
+    padding: 5px;
+    /* color: crimson; */
+    background-color: white;
+    border-radius: 2px;
+}
+
+.bg_pertanyaan {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.no {
+    background-color: #6ECB63;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+    border: 2px solid #A0D995;
+}
+
+.no p {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.inti_pertanyaan {
+    border-left: 2px solid #A0D995;
+    border-bottom: 2px solid #A0D995;
+    border-right: 2px solid #A0D995;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.pertanyaannya {
+    font-size: 1.6vw;
+}
+
+.batas {
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(131, 176, 190);
+}
+
+/*Radio Button*/
+.bg_pilihan,
+.checkbox {
+    position: relative;
+    margin: 20px 0;
+    display: block;
+    font-size: 1.6vw;
+}
+
+.bg_pilihan :hover,
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.checkbox {
+    display: block;
+}
+
+.bg_pilihan input,
+.checkbox input {
+    position: absolute;
+    margin: 5px;
+    padding: 0;
+    visibility: hidden;
+}
+
+.bg_pilihan .textnya,
+.checkbox .textnya {
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+
+.nav_pilihan,
+.fake-checkbox {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #6ECB63;
+    
+}
+
+.nav_pilihan:after,
+.fake-checkbox:after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    background: #00BD56;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.nav_pilihan {
+    border-radius: 50%;
+}
+
+.nav_pilihan:after {
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked+span .nav_pilihan:after {
+    display: block;
+}
+
+span {
+    display: inline-block;
+}
+/*Akhir Button*/
+
+/*Button Sebelum dan Selanjutnya*/
+.nav_sebelum {
+    background-color: #A0D995;
+    width: 24%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 3px solid #6ECB63;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 3%;
+    color: white;
+}
+
+.nav_sebelum:hover {
+    background-color: #00BD56;
+}
+
+.nav_sebelum p {
+    font-size: 1.6vw;
+}
+
+.nav_selanjut {
+    background-color: #A0D995;
+    width: 24%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 3px solid #6ECB63;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 3%;
+    color: white;
+}
+
+.nav_selanjut:hover {
+    background-color: #00BD56;
+}
+
+.nav_selanjut p {
+    font-size: 1.6vw;
+}
+
+.disable {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.disablee {
+    background-color: rgb(133, 133, 133) !important;
+    color: rgb(37, 37, 37);
+    cursor: default !important;
+}
+/*Batas Akhirnya Button Sebelum dan Selanjutnya*/
+
+/*Bagian Kanan Soal*/
+.kanan {
+    float: right;
+    width: 30%;
+    background-color: white;
+    height: 90vh;        
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box; 
+    border-radius: 15px;
+}
+
+.bg_nav {
+    width: 99%;
+    background-color: #6ECB63;
+    border-radius: 10px;
+}
+
+.bg_full {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.bg_soal {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #6ECB63;
+    border-radius: 10px;
+}
+
+.soal_nav {
+    width: 10%;
+    height: 20%;
+    padding: 2px;
+    text-align: center;
+    border: 2px solid #00BD56;
+    border-radius: 5px;
+    float: left;
+    margin-left: 8.5%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.soal_nav {
+    width: 14%;
+    height: 18%;
+    margin-left: 8.5%;
+}
+
+.soal_nav:hover {
+    cursor: pointer;
+    background-color: #00BD56;
+}
+
+.bg_soal span {
+    padding: 2px;
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.fontsedang {
+    font-size: 1.3vw;
+}
+
+.ket {
+    width: 100%;
+    margin-left: 8.5%;
+    margin-top: 140px;
+}
+
+.belum {
+    background-color: white;
+}
+
+.sudah {
+    background-color: lightgreen;
+}
+
+.selesai {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    background-color: #A0D995;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10px;
+    /* line-height: 20px; */
+    margin-left: 10%;
+    border: 2px solid #6ECB63;
+    color: white;
+}
+
+.selesai:hover {
+    background-color: #00BD56;
+}

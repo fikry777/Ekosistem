@@ -1,0 +1,102 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jawaban Siswa</title>
+    <link rel="stylesheet" type="text/css" href="Jawaban Siswa.css">
+<style>
+    /* label, button{
+        margin-right: 0.5%;
+    } */
+    
+.table {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.tulis{
+    font-weight: bold;
+}
+    @media(max-width: 1000px) {
+    .card{
+        width: fit-content;
+    }
+    
+}
+</style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="header">
+            <h2>Jawaban Kuis</h2>
+        </div>
+        <!-- <br> -->
+        <div class="card-title-md" style="margin: 10px 10px;margin-bottom: 8px;">
+            <button type="button" class="kembali" onclick="location.href='Page Guru.html'">&nbsp;&nbsp;&nbsp;Kembali</button>
+        </div>
+        <center style="background-color: white;">
+            <button type="button" class="kuis" style="margin: 5px 0px;">&nbsp;&nbsp;&nbsp;Kuis</button>
+            <button type="button" class="evaluasi" onclick="location.href='Jawaban Siswa Evaluasi.html'">&nbsp;&nbsp;&nbsp;Evaluasi</button>
+        </center>
+
+        <div class="card-body">
+            <div class="card-title-md"><br>
+                <center> 
+                <label for="nama" style="margin: 10px;">Kuis : 
+                    <select id="kuis" name="kuis" class="mundur">
+                        <option value="kuis1/" selected="selected">KUIS 1</option>
+                        <option value="kuis2/">KUIS 2</option>
+                        <option value="kuis3/">KUIS 3</option>
+                        <!-- <option value="evaluasi/">EVALUASI</option> -->
+                    </select>
+                </label>
+                <label for="nama" style="margin: 10px;">Kelas : 
+                <select id="kelas" name="kelas" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                    <option value="0" selected="selected">-- PILIH KELAS --</option>
+                    <option value="1">V A</option>
+                </select>
+                </label>
+                <button type="button" class="search" onclick="readlah()">&nbsp;&nbsp;&nbsp;Cari</button>
+                <button type="button" class="download">&nbsp;&nbsp;&nbsp;&nbsp;Download</button><br><br>
+            </div>
+            <!-- <br> -->
+            <div class="border" style="width:80%;">
+                <input type="text" id="myInput" style="width:22%;" onkeyup="myFunction()" placeholder="Cari nama.." title="Ketikan nama">
+                <center>
+                    <table id='table_wrapper' class="table" style="width:90%;">
+                        <thead>
+                            <tr>
+                                <th class="ukr1" style="width:35%;" colspan="" rowspan="2">Nama</th>
+                                <th class="ukr3" style="width:6%;"colspan="" rowspan="2">Skor</th>
+                                <th class="ukr0" colspan="10">Jawaban</th>
+                            </tr>
+                            <tr>
+                                <th>1</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5</th>
+                                <th>6</th>
+                                <th>7</th>
+                                <th>8</th>
+                                <th>9</th>
+                                <th>10</th>
+                            </tr>
+                        </thead>
+                        <tbody class="disini"></tbody>
+                    </table>
+                </center>
+            </div>
+            <center class="ha">
+            <div class=" clear"></div>
+        </div>
+    </div>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+
+<script src="Jawaban.js"></script>
+<script src="search.js"></script>
+</body>
+</html> 

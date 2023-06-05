@@ -1,0 +1,91 @@
+[{
+    "soal0": {
+        "soal": "Berikut ini yang bukan merupakan ekosistem alami adalah ekosistem ....",
+        "a": "a. Laut",
+        "b": "b. Sungai",
+        "c": "c. Rawa",
+        "d": "d. Ladang jagung",
+        "benar": "d"
+    }
+},{
+    "soal1": {
+        "soal":"Padi, belalang, katak, dan tikus banyak terdapat pada ekosistem ....",
+        "a": "a. Sawah",
+        "b": "b. Sungai",
+        "c": "c. Laut",
+        "d": "d. Hutan",
+        "benar": "a"        
+    }        
+},{
+    "soal2": {
+        "soal":"Berikut ini adalah salah satu makhluk hidup yang hidup pada ekosistem air tawar adalah ....",
+        "a": "a. Terumbu karang",
+        "b": "b. Teratai",
+        "c": "c. Batu karang",
+        "d": "d. Rumput laut",
+        "benar": "b"
+    }
+},{
+    "soal3": {
+        "soal":"Ekosistem yang didominasi oleh tumbuhan kaktus adalah ....",
+        "a": "a. Sabana",
+        "b": "b. Pesisir",
+        "c": "c. Gurun",
+        "d": "d. Hutan tropis",
+        "benar": "c"
+    }
+},{
+    "soal4": {
+        "soal":"Berikut ini yang merupakan contoh ekosistem buatan adalah ....",
+        "a": "a. Gurun",
+        "b": "b. Hutan hujan tropis",
+        "c": "c. Pantai",
+        "d": "d. Sawah",
+        "benar": "d"
+    }
+},{    
+    "soal5": {
+        "soal": "Komunitas makhluk hidup yang berinteraksi dengan lingkungannya disebut ....",
+        "a": "a. Habitat",
+        "b": "b. Ekosistem",
+        "c": "c. Simbiosis",
+        "d": "d. Interaksi",
+        "benar": "b"
+    }
+},{ 
+    "soal6": {
+        "soal": "Kumpulan individu yang sejenis disebut ....",
+        "a": "a. Organisme",
+        "b": "b. Populasi",
+        "c": "c. Ekosistem",
+        "d": "d. Komunitas",
+        "benar": "b"
+    }
+},{ 
+    "soal7": {
+        "soal": "Semua makhluk hidup pasti memerlukan lingkungan tertentu agar dapat bertahan dan memenuhi kebutuhannya. Dibawah ini adalah lingkungan yang berupa benda mati dinamakan ....",
+        "a": "a. Abiotik",
+        "b": "b. Biosfer",
+        "c": "c. Biotik",
+        "d": "d. Ekosistem",
+        "benar": "a"
+    }
+},{ 
+    "soal8": {
+        "soal": "Kumpulan ... disebut komunitas.",
+        "a": "a. Individu",
+        "b": "b. Ekosistem",
+        "c": "c. Populasi",
+        "d": "d. Bioma",
+        "benar": "c"
+    }
+},{
+    "soal9": {
+        "soal": "Berikut yang termasuk lingkungan abiotik, kecuali ....",
+        "a": "a. Udara",
+        "b": "b. Tanah",
+        "c": "c. Air",
+        "d": "d. Rumput",
+        "benar": "d"
+    }
+}]

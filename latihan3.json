@@ -1,0 +1,91 @@
+[{
+    "soal0": {
+        "soal": "Pengurai pada rantai makanan disebut ....",
+        "a": "a. Konsumen I",
+        "b": "b. Konsumen II",
+        "c": "c. Dekomposer",
+        "d": "d. Produsen",
+        "benar": "c"
+    }
+},{
+    "soal1": {
+        "soal":"Dalam rantai makanan makhluk hidup yang bertindak sebagai produsen adalah ....",
+        "a": "a. Padi",
+        "b": "b. Manusia",
+        "c": "c. Kambing",
+        "d": "d. Elang",
+        "benar": "a"        
+    }        
+},{
+    "soal2": {
+        "soal": "Perhatikan rantai makanan berikut!<br><img src='./img/Soal 3 Kuis 3 Edit.png' style='width: 80%'><br>Manakah yang disebut dengan konsumen kedua ....",
+        "a": "a. Padi",
+        "b": "b. Tikus",
+        "c": "c. Ular",
+        "d": "d. Elang",
+        "benar": "c"
+    }
+},{
+    "soal3": {
+        "soal": "Makhluk hidup yang mampu menghasilkan makanan sendiri disebut ....",
+        "a": "a. Konsumen tingkat I",
+        "b": "b. Produsen",
+        "c": "c. Konsumen tingkat II",
+        "d": "d. Pengurai",
+        "benar": "b"
+    }
+},{
+    "soal4": {
+        "soal": "Sebuah peristiwa makan dan dimakan antara sesama makhluk hidup dengan urutan-urutan tertentu adalah pengertian dari ....",
+        "a": "a. Karnivora",
+        "b": "b. Rantai makanan",
+        "c": "c. Jaring-jaring makanan",
+        "d": "d. Omnivora",
+        "benar": "b"
+    }
+},{    
+    "soal5": {
+        "soal": "Perhatikan rantai makanan dibawah ini!<br>(1) Padi - tikus - ular - burung elang<br>(2) Fitoplankton - zooplankton - udang - cumi-cumi<br>(3) Rumput - zebra - singa<br>(4) Tanaman tomat - ulat - ayam - ular<br>Rantai makanan yang terjadi di ekosistem kebun ditunjukkan oleh nomor ....",
+        "a": "a. 1",
+        "b": "b. 2",
+        "c": "c. 3",
+        "d": "d. 4",
+        "benar": "d"
+    }
+},{ 
+    "soal6": {
+        "soal": "Perhatikan rantai makanan berikut ini!<br><img src='./img/Soal 7 Kuis 3 Edit.png' style='width: 45%'><br>Dalam rantai makanan tersebut, bila populasi katak menurun karena diburu manusia, maka akan terjadi ....",
+        "a": "a. Populasi ular ikut menurun",
+        "b": "b. Populasi belalang menurun",
+        "c": "c. Populasi ular meningkat",
+        "d": "d. Populasi belalang tetap",
+        "benar": "a"
+    }
+},{ 
+    "soal7": {
+        "soal": "Perhatikan dua rantai makanan berikut!<br>(1) Ganggang - ikan - bangau - buaya<br>(2) Tanaman wortel - kelinci - ular - burung elang<br>Berdasarkan kedua rantai makanan tersebut ikan dan ular berurutan berperan sebagai ....",
+        "a": "a. Produsen dan konsumen I",
+        "b": "b. Konsumen I dan konsumen II",
+        "c": "c. Konsumen II dan konsumen III",
+        "d": "d. Produsen dan konsumen III",
+        "benar": "b"
+    }
+},{ 
+    "soal8": {
+        "soal": "Perhatikan gambar dibawah ini!<br><img src='./img/Soal 9 Kuis 3 Edit.png' style='width: 45%'><br>Populasi hewan yang paling banyak pada piramida makanan diatas yaitu ....",
+        "a": "a. Belalang",
+        "b": "b. Katak",
+        "c": "c. Burung elang",
+        "d": "d. Ayam",
+        "benar": "a"
+    }
+},{
+    "soal9": {
+        "soal": "Rantai makanan terdiri dari ....",
+        "a": "a. Produsen",
+        "b": "b. Dekomposer",
+        "c": "c. Konsumen",
+        "d": "d. Semua benar",
+        "benar": "d"
+    }
+}]

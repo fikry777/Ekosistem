@@ -1,0 +1,67 @@
+.dataaa {
+    min-height: auto;
+    background-color: white;
+    height: auto;
+    border-radius: 10px;
+}
+
+.skornya {
+    /* margin-top: 10px; */
+    margin-left: 0px;
+    font-size: 1.6vw;
+    box-sizing: border-box;
+    border: 3px solid #6ECB63;
+    border-radius: 10px;
+    min-height: auto;
+    /* padding-bottom: 30px; */
+}
+
+.t_hasil {        
+    border: 5px solid #46B29E;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 530px;
+    width: 530px;
+}
+
+.ket_hasil {
+    width: auto;
+    font-size: 1.4vw !important;
+    float: left;
+}
+
+.ket_hasilnya{
+    padding-left: 5%;
+    float: left;
+}
+
+.pad{
+    padding: 0 10px;
+    padding-top: 15px;
+}
+
+.tmbl {
+    display: inline-block;
+    width: auto;
+    font-family: Georgia,
+        'Times New Roman',
+        Times,
+        serif;
+    color: white;
+    padding: 5px 5px;
+    background-color: #A0D995;
+    border: 2px solid #6ECB63;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.tmbl:hover {
+    background-color: #00BD56;
+}

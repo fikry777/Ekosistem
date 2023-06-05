@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKOSISTEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Materi.css">
+</head>
+
+<body>   
+    <div class="semua">
+        <!-- Header -->
+        <div class="atas">
+            <h1>EKOSISTEM</h1>
+        </div>
+        <div class="menu">
+            <div class="ham">
+                <a href="#"><img src="hamburger42.png"></a>
+            </div>
+            <div class="home">
+                <a href="Home.html"><img src="Home32.png"></a>
+            </div>
+        </div>
+        <div class="sidenav" id="sidenav">
+            <button class="dropdown-btn">A. Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Materi.html">1. Jenis Ekosistem</a>
+                    <a href="Komponen Ekosistem.html">2. Komponen Ekosistem</a>
+                    <a href="Latihan 1.html">Kuis 1</a>
+                </div>
+            <button class="dropdown-btn">B. Hubungan Antarmakhluk Hidup<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container" id="hubungan">
+                    <a href="Simbiosis 1.html">1. Simbiosis</a>
+                    <a href="Penggolongan 1.html" class="hidup">2. Penggolongan Hewan Berdasarkan Jenis Makanannya</a>
+                    <a href="Latihan 2.html">Kuis 2</a>
+                </div>
+            <button class="dropdown-btn">C. Keseimbangan Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a onclick="materi3()">1. Rantai Makanan dan Jaring-jaring Makanan<img src="Kunci24.png"></a>
+                    <a onclick="materi32()">2. Piramida Makanan<img src="Kunci24.png"></a>
+                    <a onclick="kuis3()">Kuis 3<img src="Kunci24.png"></a>
+                </div>
+                <a onclick="evaluasi()">Evaluasi<img src="Kunci24.png"></a>
+        </div>
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center>
+                <h2>Ekosistem</h2>
+            </center>
+        </div>
+        <!-- Isi -->
+        <div class="konten" id="konten">
+            <!-- Tujuan -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                    <p>Tujuan Pembelajaran</p>
+                </nav>
+                <div class="atasa">
+                    <div class="tujuan">
+                        <ol>
+                            <li>Siswa mampu menentukan pengelompokan hewan berdasarkan dari jenis makanannya.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3>Penggolongan Hewan Berdasarkan Jenis Makanannya</h3>
+            <div class="penjelasan">
+                <br>
+                <center>
+                    <video id="vidio" controls style="width:60%;">
+                        <source src="https://ia902604.us.archive.org/30/items/penggolongan-hewan-berdasarkan-jenis-makanannya/Penggolongan%20Hewan%20Berdasarkan%20Jenis%20Makanannya.mp4">
+                    </video>
+                </center>
+                <br>
+                <p style="text-indent: 45px;">
+                    Di alam bebas, setiap jenis hewan mempunyai jenis makanan masing-masing. Sumber makanan hewan dikelompokkan menjadi dua macam,
+                    yaitu tumbuhan dan hewan. Makanan yang berasal dari tumbuhan, di antaranya dapat berupa daun, batang, buah, biji-bijian, dan akan atau umbi-umbian.
+                    Makanan yang berasal dari hewan dapat berupa daging, ikan, dan serangga.
+                </p>
+                <br>
+                <p style="text-indent: 45px;">
+                    Berdasarkan jenis makanannya, hewan dikelompokkan menjadi tiga golongan.
+                    Ketiga golongan itu adalah golongan hewan pemakan tumbuhan (herbivora), hewan pemakan daging (karnivora),
+                    dan hewan pemakan segala (omnivora).
+                </p>
+                <!-- <div class="simulasi">
+                    <a href="Sidebar.html" class="btn-2 btn-blue btn-bg-ocean"></a>
+                </div> -->
+            </div><br>
+        </div>
+        <!-- Next bawah-->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Simbiosis 4.html"><div class="Lanjut">Back</div></a>
+            <a href="Penggolongan 1.html"><div class="Lanjut aktif_konten">1</div></a>
+            <a href="Penggolongan 2.html"><div class="Lanjut">2</div></a>
+            <a href="Penggolongan 3.html"><div class="Lanjut">3</div></a>
+            <a href="Penggolongan 4.html"><div class="Lanjut">4</div></a>
+            <a href="Penggolongan 2.html"><div class="Lanjut">Next</div></a>
+        </div>
+        <div class="bawah">
+            <p>Copyright &copy; 2022, Fikry Muhammad (1610131310010)</p>
+            <p>Media Pembelajaran IPA Kelas 5 : Ekosistem</p>
+        </div>
+    </div>
+    <script src="JalanMateri.js"></script>
+    <script src="Tutorial.js"></script>
+</body>
+</html>

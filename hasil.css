@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A0D995;
+}
+
+.header {
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #6ECB63;
+    box-shadow: 0px 1px 2px 1px #61B15A;
+}
+
+.kembali {
+    background-image: url('Back24New.png');
+    background-position: 4px 4px;
+    background-repeat: no-repeat;
+    background-color: white;
+    color: #00BD56;
+    border: 3px solid #00BD56;
+    border-radius: 5px;
+    padding: 9px 20px;
+    cursor: pointer;
+}
+
+.kembali:hover {
+    background-color: #00BD56;
+    border-color: #00BD56;
+    color: #fff;
+}
+
+.kolom {
+    background-color: white;
+    padding: 5px 0;
+    box-shadow: 0px 1px 2px 1px #61B15A;
+}
+
+.search {
+    background-image: url('Search24New.png');
+    background-position: 5px 4px;
+    background-repeat: no-repeat;
+    background-color: white;
+    color: #00BD56;
+    border: 3px solid #00BD56;
+    border-radius: 5px;
+    padding: 9px 20px;
+    cursor: pointer;
+}
+
+.search:hover {
+    background-color: #00BD56;
+    border-color: #00BD56;
+    color: #fff;
+}
+
+.download {
+    background-image: url('Download24New.png');
+    background-position: 6px 4px;
+    background-repeat: no-repeat;
+    background-color: white;
+    color: #00BD56;
+    border: 3px solid #00BD56;
+    border-radius: 5px;
+    padding: 9px 20px;
+    cursor: pointer;
+}
+
+/*tandai*/
+.card-body{
+    background-color: #A0D995;
+    min-height: 100vh;
+}
+
+
+.download:hover {
+    background-color: #00BD56;
+    border-color: #00BD56;
+    color: #fff;
+}
+
+.hapus {
+    background-color: transparent;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+    padding: 9px 20px;
+    cursor: pointer;
+}
+
+.hapus:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.delete {
+    color: white;
+    background-color: #dc3545;
+    border: 3px solid #dc3545;
+    border-radius: 5px;
+    padding: 9px 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.delete:hover {
+    background-color: #bb2d3b;
+    border-color: #bb2d3b;
+    color: #fff;
+}
+
+.border {
+    border: 3px solid #6ECB63;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.table, th, td {
+    border: 2px solid #6ECB63;
+    border-collapse: collapse;
+}
+
+.table {
+    width: 84%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.ukr1, .ukr2, .ukr3, .hps {
+    text-align: center;
+}
+
+th {
+    height: 35px;
+    background-color: #B3FFAE;
+}
+
+td {
+    height: 45px;
+}
+
+.ukr1 {
+    width: 25%;
+}
+
+.ukr2 {
+    width: 25%;
+}
+
+.ukr3 {
+    width: 6%;
+}
+
+.ukr4 {
+    width: 20%;
+}
+
+#myInput {
+    background-image: url('Search24.png');
+    background-position: 5px 2px;
+    background-repeat: no-repeat;
+    width: 20%;
+    font-size: 16px;
+    padding: 5px 20px 5px 33px;
+    border: 1px solid #ddd;
+    margin-top: 40px;
+    margin-left: 67%;
+}
+
+.items-controller {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    padding: 2px;
+    margin: 0 10px;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.bottom-field{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination li{
+    list-style: none;
+    padding: 2px;
+    margin: 10px;
+    flex-shrink: 0;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #999;
+    color: #999;
+}
+.pagination li.active{
+    background: #32d6aa;
+    color: white;
+    border-color: #32d6aa;
+
+}
+.pagination li a{
+    text-decoration: none;
+    padding: 3px 8px;
+    color: inherit;
+    display: block;
+    font-family: sans-serif;
+    font-size: 13px;
+}

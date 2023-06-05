@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKOSISTEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Materi.css">
+</head>
+
+<body>   
+    <div class="semua">
+        <!-- Header -->
+        <div class="atas">
+            <h1>EKOSISTEM</h1>
+        </div>
+        <div class="menu">
+            <div class="ham">
+                <a href="#"><img src="hamburger42.png"></a>
+            </div>
+            <div class="home">
+                <a href="Home.html"><img src="Home32.png"></a>
+            </div>
+        </div>
+        <div class="sidenav" id="sidenav">
+            <button class="dropdown-btn">A. Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Materi.html">1. Jenis Ekosistem</a>
+                    <a href="Komponen Ekosistem.html">2. Komponen Ekosistem</a>
+                    <a href="Latihan 1.html">Kuis 1</a>
+                </div>
+            <button class="dropdown-btn">B. Hubungan Antarmakhluk Hidup<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Simbiosis 1.html">1. Simbiosis</a>
+                    <a href="Penggolongan 1.html">2. Penggolongan Hewan Berdasarkan Jenis Makanannya</a>
+                    <a href="Latihan 2.html">Kuis 2</a>
+                </div>
+            <button class="dropdown-btn">C. Keseimbangan Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container" id="keseimbangan">
+                    <a href="Rantai Makanan 1.html" class="hidup">1. Rantai Makanan dan Jaring-jaring Makanan</a>
+                    <a href="Piramida Makanan 1.html">2. Piramida Makanan</a>
+                    <a href="Latihan 3.html">Kuis 3</a>
+                </div>
+                <a onclick="evaluasi()">Evaluasi<img src="Kunci24.png"></a>
+        </div>
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center>
+                <h2>Rantai Makanan dan Jaring-jaring Makanan</h2>
+            </center>
+        </div>
+        <!-- Isi -->
+        <div class="konten" id="konten">
+            <!-- Tujuan -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                    <p>Tujuan Pembelajaran</p>
+                </nav>
+                <div class="atasa">
+                    <div class="tujuan">
+                        <ol>
+                            <li>Siswa mampu menjelaskan hubungan antarkomponen ekosistem dan jaring-jaring makanan dalam suatu lingkungan.</li>
+                            <li>Siswa mampu menentukan hubungan antarkomponen ekosistem dan jaring-jaring makanan dalam suatu lingkungan.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3>Rantai Makanan</h3>
+            <div class="penjelasan">
+                <p style="text-indent: 45px;">
+                    Dalam sebuah ekosistem, terdapat hubungan yang terbentuk karena peristiwa makan dan dimakan yang dikenal dengan istilah rantai makanan.
+                    Rantai makanan adalah peristiwa makan dan dimakan antara makhluk hidup dengan urutan tertentu. Perhatikanlah contoh rantai makanan berikut.
+                    Rumput dimakan rusa, kemudian rusa dimakan oleh singa. Rumput, rusa, dan singa yang telah mati akan diuraikan oleh jamur dan cacing tanah.
+                </p>
+                <center>
+                    <img class="gambarzoom" id="" src="./img/Rantai Makanan 1.png" width="550px">
+                </center>
+                <p style="text-align: center;">
+                    <strong>Gambar 15.</strong>
+                    <i>Contoh rantai makanan. <br> </i>
+                </p>
+                <br>
+                <p style="text-indent: 45px;">
+                    Makhluk hidup dalam rantai makanan dibedakan berdasarkan perannya, yaitu sebagai produsen, konsumen, dan dekomposer (pengurai). Pada rantai
+                    makanan di atas yang berperan sebagai produsen adalah rumput, yang berperan sebagai konsumen adalah rusa dan singa, serta yang berperan sebagai
+                    pengurai adalah jamur dan cacing tanah.
+                </p>
+                <center>
+                    <img class="gambarzoom" id="" src="./img/Rantai Makanan 2.png" width="550px">
+                </center>
+                <p style="text-align: center;">
+                    <strong>Gambar 16.</strong>
+                    <i>Contoh rantai makanan dengan komponen penyusunnya. <br> </i>
+                </p>
+                <br>
+                <p style="text-indent: 45px;">
+                    Suatu rantai makanan terdiri dari beberapa tingkat. Tingkat pertama berupa produsen, yaitu makhluk hidup yang mampu menghasilkan zat makanan sendiri,
+                    misalnya tumbuhan hijau. Makhluk hidup yang menduduki tingkat kedua disebut konsumen primer (konsumen I). Konsumen I biasanya berupa hewan herbivora.
+                    Makhluk hidup yang menduduki tingkat ketiga disebut konsumen sekunder (konsumen II), yaitu hewan karnivora dan seterusnya. Makhluk hidup yang menduduki
+                    tingkat tertinggi disebut konsumen puncak. Produsen dan konsumen yang mati akan dirombak oleh pengurai menjadi zat-zat yang dapat digunakan kembali oleh produsen.
+                </p>
+                <br>
+                <!-- <center>
+                    <table style="border-collapse: collapse; width: 80%;">
+                        <tr>
+                          <th style="text-align: center; border: 1px solid; padding: 8px;">PRODUSEN</th>
+                          <th style="text-align: center; border: 1px solid; padding: 8px;">KONSUMEN</th>
+                          <th style="text-align: center; border: 1px solid; padding: 8px;">PENGURAI</th>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid; padding: 8px; text-align: justify;">Kelompok makhluk hidup yang dapat menghasilkan sendiri makanannya. Hal ini dikarenakan produsen memiliki zat hijau daun (klorofil) untuk melakukan fotosintesis. Semua tumbuhan yang mempunyai zat hijau daun merupakan produsen.</td>
+                          <td style="border: 1px solid; padding: 8px; text-align: justify;">Kelompok makhluk hidup yang tidak dapat menghasilkan sendiri makanannya. Semua hewan dalam ekosistem merupakan konsumen. Konsumen dibedakan menjadi konsumen I, konsumen II, dan seterusnya hingga konsumen puncak. <li>Konsumen I: kelompok hewan herbivora/omnivora.</li> <li>Konsumen II: kelompok hewan omnivora/karnivora.</li> <li>Konsumen puncak: kelompok hewan karnivora yang tidak ada pemangsanya lagi.</li></td>
+                          <td style="border: 1px solid; padding: 8px; text-align: justify;">Kelompok makhluk hidup (jamur, bakteri, cacing) yang menguraikan sisa tubuh makhluk hidup yang sudah mati.</td>
+                        </tr>
+                    </table>
+                </center> -->
+            </div><br>
+        </div>
+        <!-- Next bawah-->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Penggolongan 4.html"><div class="Lanjut">Back</div></a>
+            <a href="Rantai Makanan 1.html"><div class="Lanjut aktif_konten">1</div></a>
+            <a href="Rantai Makanan 2.html"><div class="Lanjut">2</div></a>
+            <a href="Rantai Makanan 2.html"><div class="Lanjut">Next</div></a>
+        </div>
+        <div class="bawah">
+            <p>Copyright &copy; 2022, Fikry Muhammad (1610131310010)</p>
+            <p>Media Pembelajaran IPA Kelas 5 : Ekosistem</p>
+        </div>
+    </div>
+    <script src="JalanMateri.js"></script>
+    <script src="Rantai Makanan 1 Gambar Zoom.js"></script>
+    <script src="Tutorial.js"></script>
+</body>
+</html>

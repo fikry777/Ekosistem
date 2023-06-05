@@ -1,0 +1,91 @@
+[{
+    "soal0": {
+        "soal": "Hubungan makhluk hidup seperti pada gambar merupakan contoh simbiosis .... <img src='./img/Soal 1 Kuis 2.jpg' style='width: 45%'>",
+        "a": "a. Komensalisme",
+        "b": "b. Mutualisme",
+        "c": "c. Parasitisme",
+        "d": "d. Interaksi",
+        "benar": "b"
+    }
+},{
+    "soal1": {
+        "soal":"Hubungan benalu dan pohon inang merupakan contoh simbiosis ....",
+        "a": "a. Komensalisme",
+        "b": "b. Mutualisme",
+        "c": "c. Parasitisme",
+        "d": "d. Interaksi",
+        "benar": "c"
+    }        
+},{
+    "soal2": {
+        "soal": "Perhatikan gambar berikut!<br><img src='./img/Soal 3 Kuis 2.jpg' style='width: 45%'><br>Simbiosis yang terdapat di ekosistem pada gambar diatas adalah simbiosis ....",
+        "a": "a. Mutualisme",
+        "b": "b. Komensalisme",
+        "c": "c. Parasitisme",
+        "d": "d. Predatorisme",
+        "benar": "b"
+    }
+},{
+    "soal3": {
+        "soal": "Pernyataan dibawah ini yang benar tentang simbiosis parasitisme yaitu ....",
+        "a": "a. Salah satu makhluk hidup dirugikan",
+        "b": "b. Salah satu makhluk hidup tidak diuntungkan dan dirugikan",
+        "c": "c. Kedua makhluk hidup saling merugikan",
+        "d": "d. Kedua makhluk hidup saling menguntungkan",
+        "benar": "a"
+    }
+},{
+    "soal4": {
+        "soal": "Berikut ini yang tidak termasuk dalam macam-macam simbiosis adalah ....",
+        "a": "a. Simbiosis parasitisme",
+        "b": "b. Simbiosis mutualisme",
+        "c": "c. Simbiosis predatorisme",
+        "d": "d. Simbiosis komensalisme",
+        "benar": "c"
+    }
+},{    
+    "soal5": {
+        "soal": "Berikut adalah karnivora, kecuali ....",
+        "a": "a. Sapi",
+        "b": "b. Singa",
+        "c": "c. Harimau",
+        "d": "d. Elang",
+        "benar": "a"
+    }
+},{ 
+    "soal6": {
+        "soal": "Gigi taring yang terdapat pada harimau digunakan untuk ....",
+        "a": "a. Mengerat dan menghancurkan makanan",
+        "b": "b. Mengigit mangsanya",
+        "c": "c. Memotong makanan",
+        "d": "d. Mengoyak mangsanya",
+        "benar": "d"
+    }
+},{ 
+    "soal7": {
+        "soal": "Berikut adalah omnivora ....",
+        "a": "a. Kambing",
+        "b": "b. Kuda",
+        "c": "c. Bebek",
+        "d": "d. Sapi",
+        "benar": "c"
+    }
+},{ 
+    "soal8": {
+        "soal": "Gambar disamping merupakan hewan pemakan .... <img src='./img/Soal 9 Kuis 2.png' style='width: 45%'>",
+        "a": "a. Tumbuhan",
+        "b": "b. Tumbuhan dan buah-buahan",
+        "c": "c. Buah-buahan",
+        "d": "d. Daging",
+        "benar": "d"
+    }
+},{
+    "soal9": {
+        "soal": "Herbivora, karnivora, dan omnivora adalah pengelompokkan hewan berdasarkan ....",
+        "a": "a. Jenis makanannya",
+        "b": "b. Habitatnya",
+        "c": "c. Kelasnya",
+        "d": "d. Ciri-cirinya",
+        "benar": "a"
+    }
+}]

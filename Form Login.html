@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login | Halaman Guru</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="bg.svg">
+		</div>
+		<div class="login-content">
+			<form action="Page Guru.html">
+				<img src="avatar.svg">
+				<h2 class="title">Halaman Guru</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input">
+            	   </div>
+            	</div>
+                <button id="log-in" class="btn">Login</button>
+            	<!-- <input type="submit" class="btn" value="Login"> -->
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="login.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+    window.onload = ()=>{
+        this.sessionStorage.setItem("username", "admin");
+        this.sessionStorage.setItem("password", "guru");
+    }
+
+    var input = document.getElementsByTagName('input');
+    var login = document.getElementById('log-in');
+    var form = document.querySelector('form');
+    form.onsubmit = ()=>{return false}
+
+    login.onclick = ()=>{
+        if ((input[0].value != "")&& (input[1].value !=""))
+        {
+           if ((input[0].value == sessionStorage.getItem("username")) && (input[1].value
+                == sessionStorage.getItem("password")))
+            {
+                form.onsubmit = ()=>{return 1}
+                document.cookie = "username"+input[0].value;
+                document.cookie = "password"+input[1].value;
+            }
+            else
+            {
+                if ((input[0].value != sessionStorage.getItem("username")))
+                {
+                    input[0].nextElementSibling.textContent = "Username NOT match";
+                    setTimeout(()=>{
+                        input[0].nextElementSibling.textContent = "";
+                    }, 2000);
+                }
+                if ((input[1].value != sessionStorage.getItem("password")))
+                {
+                    input[1].nextElementSibling.textContent = "Password NOT match";
+                    setTimeout(()=>{
+                        input[1].nextElementSibling.textContent = "";
+                    }, 2000);
+                }
+            }
+        }
+        else
+        {
+            if (input[0].value == "")
+            {
+                input[0].nextElementSibling.textContent = "Username is empty";
+                setTimeout(()=>{
+                    input[0].nextElementSibling.textContent = "";
+                }, 2000);
+            }
+            if (input[1].value == "")
+            {
+                input[1].nextElementSibling.textContent = "Password is empty";
+                setTimeout(()=>{
+                    input[1].nextElementSibling.textContent = "";
+                }, 2000);
+            }
+        }
+    }
+</script>

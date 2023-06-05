@@ -1,0 +1,589 @@
+body {
+  margin: 0;
+  background-color: #A0D995;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.semua {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+.atas {
+  background-color: #6ECB63;
+  padding: 15px;
+  height: 60px;
+  padding-left: 50px;
+  text-align: center;
+  color: white;
+}
+.menu {
+  background-color: #333;
+  width: 100%;
+}
+.ham{
+  display: inline-block;
+  letter-spacing: 4px;
+  padding: 2px 20px;
+  margin-top: 5px;
+}
+.home {
+  margin-top: 13px;
+  float: right;
+  padding-right: 640px;
+}
+
+.sidenav {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 20vw;
+  background: #61B15A;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.sidenav.aktif {
+  left: -20vw;
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 10px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+.active {
+  background-color: #6ECB63;
+  color: white;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #B3FFAE;
+  padding-left: 8px;
+}
+
+.dropdown-container a {
+  padding: 10px 10px;
+}
+
+.dropdown-container a:hover {background-color: #A1DD70;}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+.dropdown-container .hidup {
+  background-color: #00BD56;
+  color: black !important;
+  cursor: default !important;
+}
+.hilang {
+  display: none !important;
+}
+.judul {
+  margin-left: 239px;
+  padding: 10px 0px 3px 0px;
+  background-color: #A0D995;
+}
+#judul.full {
+  margin-left: 0px;
+}
+.judul h2 {
+  padding: 5px 15px 5px 15px;
+  display: inline-block;
+  text-align: center;
+  font-size: 22px;
+  border: 4px solid black;
+  border-radius: 40px;
+  letter-spacing: 2px;
+}
+.konten {
+  overflow: auto;
+  margin-left: 300px;
+  background-color: white;
+  width: 75vw;
+  height: 510px;
+  border: 4px dotted #6ECB63;
+  border-radius: 10px;
+}
+#konten.full{
+  width: 95vw;
+  margin-left: 25px;
+}
+.tujuanP{
+  margin-top: 10px;
+  margin-left: 55px;
+  display: inline-block;
+  border-left: 4px solid #6ECB63;
+  border-top: 4px solid #6ECB63;
+  border-right: 4px solid #6ECB63;
+  background-color: #A0D995;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+}
+.tujuanP p{
+  font-size: 20px;
+}
+.tujuan {
+  width: auto;
+  padding: 10px;
+  margin-left: 55px;
+  display: inline-block;
+  border-left: 4px solid #6ECB63;
+  border-top: 4px solid #6ECB63;
+  border-right: 7px solid #6ECB63;
+  border-bottom: 2px solid #6ECB63;
+  border-radius: 0px 10px 10px 0px;
+  box-sizing: border-box;
+}
+.tujuan li{
+  padding-left: 2px !important;
+  margin-left: 20px;
+  text-align: justify;
+  padding: 0px;
+}
+hr{
+  height: 5px;
+  background-color: #A0D995;
+  border: none;
+}
+.konten h3{
+  font-size: 20px;
+  margin-left: 55px;
+  display: inline-block;
+  border-left: 4px solid #6ECB63;
+  border-top: 4px solid #6ECB63;
+  border-right: 4px solid #6ECB63;
+  background-color: #A0D995;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+}
+.konten .penjelasan{
+  padding: 4%;
+  margin-left: 55px;
+  margin-right: 55px;
+  border: 2px solid #6ECB63;
+  border-radius: 0px 10px 10px 0px;
+  background-color: white;
+}
+.konten .penjelasan p{
+  line-height: 1.5;
+  text-align: justify;
+}
+.Nav-Lanjut{
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 250px;
+}
+#navigasi.full{
+  margin-left: 0px;
+}
+.Nav-Lanjut a{
+  text-decoration: none;
+  color: black;
+}
+.Nav-Lanjut .Lanjut{
+  display: inline-block;
+  border: 2px solid #064635;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #C0EDA6;
+}
+.Nav-Lanjut .Lanjut:hover {
+  cursor: pointer;
+  background-color: #064635;
+  color: white;
+}
+.Nav-Lanjut .aktif_konten {
+  background-color: #064635;
+  color: white;
+  cursor: default !important;
+}
+.Nav-Lanjut .disable {
+  background-color: rgb(133,133,133) !important;
+  color: rgb(37,37,37);
+  cursor: default !important;
+}
+.bawah {
+  background-color: #6ECB63;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.gambarzoom {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gambarzoom:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption, #caption2, #caption3 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption, #caption2, #caption3 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close1, .close2, .close3, .close4, .close5, .close6, .close7, .close8, .close9, .close10, .close11, .close12,
+.close13, .close14, .close15, .close16, .close17, .close18, .close19, .close20, .close21, .close22, .close23 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close1:hover,
+.close1:focus,
+.close2:hover,
+.close2:focus,
+.close3:hover,
+.close3:focus,
+.close4:hover,
+.close4:focus,
+.close5:hover,
+.close5:focus,
+.close6:hover,
+.close6:focus,
+.close7:hover,
+.close7:focus,
+.close8:hover,
+.close8:focus,
+.close9:hover,
+.close9:focus,
+.close10:hover,
+.close10:focus,
+.close11:hover,
+.close11:focus,
+.close12:hover,
+.close12:focus,
+.close13:hover,
+.close13:focus,
+.close14:hover,
+.close14:focus,
+.close15:hover,
+.close15:focus,
+.close16:hover,
+.close16:focus,
+.close17:hover,
+.close17:focus,
+.close18:hover,
+.close18:focus,
+.close19:hover,
+.close19:focus,
+.close20:hover,
+.close20:focus,
+.close21:hover,
+.close21:focus,
+.close22:hover,
+.close22:focus,
+.close23:hover,
+.close23:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.btn-2 {
+  border-radius: 5px;
+  padding: 150px;
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  overflow:hidden;   
+}
+
+.btn-2:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.btn-blue {
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  text-shadow: 0 1px 1px rgba(33, 33, 33, 0.2), 0 3px 10px rgba(33, 33, 33, 0.2), 0 3px 20px rgba(33, 33, 33, 0.4);
+  color: #f8f8ff;
+}
+
+.btn-blue p {
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.1);
+  font-size: 1.75rem;
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  padding: 140px;
+  color: #f8f8ff;
+    -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-blue p:hover{
+  color:#212121;
+}
+
+.btn-blue:hover {
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.15);
+  text-decoration: none;
+}
+
+.simulasi{
+  transition: all .3s ease-in-out;
+}
+
+/* duplicate the btn-bg rule to create different bgs */
+.btn-bg-ocean {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(Forest.png);
+}
+
+
+/* Latihan */
+.latihan {
+  padding: 10px;
+  margin-left: 55px;
+  margin-right: 55px;
+  border: 2px solid #6ECB63;
+  border-radius: 0px 10px 10px 0px;
+  background-color: white;
+}
+
+/* Table Lattihan Jenis Ekosistem */
+.tbl {
+  margin: auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+  font-size: 12px;
+  overflow: scroll;
+  color: white;
+  width: 100%;
+}
+.tbl th {
+  font-size: 14px;
+  background-color: #2E8B57;
+  text-align: center;
+  height: 50px;
+}
+.tbl td{
+  background-color:#3CB371;
+  padding-left: 2%;
+  padding-right: 1%;
+  text-align: center;
+  font-size: 14px;
+  height: 130px;
+}
+.tbl .ratakiri {
+  text-align: left;
+}
+
+/*Tabel Latihan Piramida Makanan*/
+.tblprmd {
+  margin: auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+  font-size: 12px;
+  overflow: scroll;
+  color: white;
+  width: 100%;
+}
+.tblprmd th {
+  font-size: 14px;
+  background-color: #2E8B57;
+  text-align: center;
+  height: 50px;
+}
+.tblprmd td{
+  background-color:#3CB371;
+  padding-left: 2%;
+  padding-right: 1%;
+  text-align: center;
+  font-size: 14px;
+  height: 130px;
+}
+
+.tblprmd .ratakiri {
+  text-align: left;
+}
+
+.no {
+  width: 100px;
+}
+    
+.tinggi {
+  width: 150px;
+  color: white;
+}
+
+.nomor {
+  width: 60px;
+}
+
+
+
+.btnvidio{
+  border-radius: 10px;
+  padding: 8px;
+  min-width: 100px;
+  background-color:  white;
+  color: #00BD56;
+  border: 3px solid #00BD56;
+}
+.btnvidio:hover{
+  background-color:  #00BD56;
+  border-color: #00BD56;
+  color: #fff; 
+}
+
+button {
+  background-color: #000500; 
+  border: none;
+  color: white;
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+/* Simbiosis */
+.tabelnya {
+  border: 1px solid #f8f9fa;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: auto;
+}
+
+.tabelnya tr td{
+  padding: 5px;
+  border: 1px solid #dfe0e1;
+}
+
+.petunjuk {
+  width: auto;
+  padding: 10px;
+  margin-left: 2px;
+  display: inline-block;
+  border-left: 4px solid #6ECB63;
+  border-top: 4px solid #6ECB63;
+  border-right: 7px solid #6ECB63;
+  border-bottom: 2px solid #6ECB63;
+  border-radius: 0px 10px 10px 0px;
+  box-sizing: border-box;
+}
+
+.petunjuk li {
+  padding-left: 2px !important;
+  margin-left: 20px;
+  text-align: justify;
+  padding: 0px;
+}
+
+/* Tabel Simbiosis*/
+.tabelnya {
+  margin: auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+  font-size: 12px;
+  overflow: scroll;
+  color: white;
+  width: 100%;
+}
+.tabelnya th {
+  font-size: 14px;
+  background-color: #00BD56;
+  text-align: center;
+}
+.tabelnya td{
+  background-color:#00BD56;
+  padding-left: 2%;
+  padding-right: 1%;
+  text-align: center;
+  font-size: 14px;
+}

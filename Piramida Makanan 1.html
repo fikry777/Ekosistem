@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKOSISTEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Materi.css">
+</head>
+
+<body>   
+    <div class="semua">
+        <!-- Header -->
+        <div class="atas">
+            <h1>EKOSISTEM</h1>
+        </div>
+        <div class="menu">
+            <div class="ham">
+                <a href="#"><img src="hamburger42.png"></a>
+            </div>
+            <div class="home">
+                <a href="Home.html"><img src="Home32.png"></a>
+            </div>
+        </div>
+        <div class="sidenav" id="sidenav">
+            <button class="dropdown-btn">A. Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Materi.html">1. Jenis Ekosistem</a>
+                    <a href="Komponen Ekosistem.html">2. Komponen Ekosistem</a>
+                    <a href="Latihan 1.html">Kuis 1</a>
+                </div>
+            <button class="dropdown-btn">B. Hubungan Antarmakhluk Hidup<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Simbiosis 1.html">1. Simbiosis</a>
+                    <a href="Penggolongan 1.html">2. Penggolongan Hewan Berdasarkan Jenis Makanannya</a>
+                    <a href="Latihan 2.html">Kuis 2</a>
+                </div>
+            <button class="dropdown-btn">C. Keseimbangan Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container" id="keseimbangan">
+                    <a href="Rantai Makanan 1.html">1. Rantai Makanan dan Jaring-jaring Makanan</a>
+                    <a href="Piramida Makanan 1.html" class="hidup">2. Piramida Makanan</a>
+                    <a href="Latihan 3.html">Kuis 3</a>
+                </div>
+                <a onclick="evaluasi()">Evaluasi<img src="Kunci24.png"></a>
+        </div>
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center>
+                <h2>Ekosistem</h2>
+            </center>
+        </div>
+        <!-- Isi -->
+        <div class="konten" id="konten">
+            <!-- Tujuan -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                    <p>Tujuan Pembelajaran</p>
+                </nav>
+                <div class="atasa">
+                    <div class="tujuan">
+                        <ol>
+                            <li>Siswa mampu menjelaskan tentang piramida makanan.</li>
+                            <li>Siswa mampu menentukan tingkatan atau urutan pada piramida makanan.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3>Piramida Makanan</h3>
+            <div class="penjelasan">
+                <p style="text-indent: 45px;">
+                    Peran setiap makhluk hidup dalam suatu ekosistem dapat dikelompokkan dan disusun dalam bentuk piramida makanan. Bentuk piramida makanan menggambarkan ekosistem yang seimbang, yaitu produsen harus lebih banyak dari konsumen tingkat I.
+                    Konsumen tingkat I harus lebih banyak dari konsumen tingkat II dan seterusnya. Dengan begitu, dapat diartikan bahwa jika produsen berkurang, konsumen tingkat I akan berkurang.
+                    Jika konsumen tingkat I berkurang, konsumen tingkat II akan berkurang, dan seterusnya. Keseimbangan ekosistem tidak bersifat tetap.
+                    Ekosistem yang seimbang dapat berubah menjadi ekosistem yang tidak seimbang. Bagaimanakan keadaan ekosistem yang tidak seimbang? 
+                    Dalam sebuah ekosistem yang tidak seimbang, komponen biotik dan abiotik tidak berada dalam jumlah yang seharusnya, baik jumlah maupun perannya dalam lingkunga.
+                    Misalnya, populasi tikus di sawah sedikit karena terus diburu oleh petani.
+                    Akibatnya, populasi ular menurun karena makanannya berupa tikus berkurang.
+                </p>
+                <center>
+                    <img class="gambarzoom" id="Imgku12" src="./img/Piramida.png" width="650px">
+                </center>
+                <p style="text-align: center;">
+                    <strong>Gambar 18.</strong>
+                    <i>Piramida Makanan</i>
+                </p>
+                <div id="myModal12" class="modal">
+                    <span class="close12">&times;</span>
+                    <img class="modal-content" id="img12">
+                    <div id="caption12"></div>
+                </div>
+                <br>
+            </div><br>
+            <h3>Ayo Jawab</h3>
+            <div class="latihan">
+                <div class="petunjuk">
+                    <b>Petunjuk :</b><br><br>
+                    <ol>
+                        <li>Pilihlah salah satu jawaban yang termasuk kedalam.</li>
+                        <li>Klik pada salah satu tombol untuk memilih jawaban.</li>
+                        <li>Jika jawaban benar maka akan muncul.</li>
+                        <li>Jika jawaban salah maka akan muncul.</li>
+                    </ol>
+                </div>
+                <p><b>Amatilah rantai makanan berikut!</b></p>
+                <center>
+                    <img class="gambarzoom" id="Imgku23" src="./img/Piramida.png" width="550px">
+                </center>
+                <!-- The Modal -->
+                <div id="myModal23" class="modal">
+                    <span class="close23">&times;</span>
+                    <img class="modal-content" id="img23">
+                    <div id="caption23"></div>
+                </div>
+                <br><br>
+                <table class="tblprmd">
+                    <tr>
+                        <th class="nomor">No.</th>
+                        <th class="pert"><center>Pertanyaan</center></th>
+                        <th class="jawa">Jawaban</th>
+                    </tr>
+                    <!-- Soal 1 -->
+                    <tr>
+                        <td>1.</td>
+                        <td class="ratakiri">Makhluk hidup yang berperan sebagai produsen</td>
+                        <td class="ratakiri" id="pil1">
+                            <label><input type="radio" name="pilihan1"><span>Jamur</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan1"><span>Ular</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan1"><span>Elang</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan1"><span>Katak</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan1"><span>Belalang</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan1"  id="s1benar"><span>Rumput</span></label>
+                        </td>
+                    </tr>
+
+                    <!-- Soal 2 -->
+                    <tr>
+                        <td>2.</td>
+                        <td class="ratakiri">Makhluk hidup yang berperan sebagai konsumen I</td>
+                        <td class="ratakiri" id="pil2">
+                            <label><input type="radio" name="pilihan2"><span>Jamur</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan2"><span>Ular</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan2"><span>Elang</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan2" id="s2benar"><span>Belalang</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan2"><span>Katak</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan2"><span>Rumput</span></label>
+                        </td>
+                    </tr>
+
+                    <!-- Soal 3 -->
+                    <tr>
+                        <td>3.</td>
+                        <td class="ratakiri">Makhluk hidup yang berperan sebagai konsumen II</td>
+                        <td class="ratakiri" id="pil3">
+                            <label><input type="radio" name="pilihan3"><span>Elang</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan3"><span>Jamur</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan3"><span>Ular</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan3" id="s3benar"><span>Katak</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan3"><span>Rumput</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan3"><span>Belalang</span></label>
+                        </td>
+                    </tr>
+
+                    <!-- Soal 4 -->
+                    <tr>
+                        <td>4.</td>
+                        <td class="ratakiri">Makhluk hidup yang berperan sebagai konsumen III</td>
+                        <td class="ratakiri" id="pil4">
+                            <label><input type="radio" name="pilihan4"><span>Rumput</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan4"><span>Jamur</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan4"><span>Belalang</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan4"><span>Katak</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan4"><span>Elang</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan4" id="s4benar"><span>Ular</span></label>
+                        </td>
+                    </tr>
+
+                    <!-- Soal 5 -->
+                    <tr>
+                        <td>5.</td>
+                        <td class="ratakiri">Makhluk hidup yang berperan sebagai konsumen puncak</td>
+                        <td class="ratakiri" id="pil5">
+                            <label><input type="radio" name="pilihan5"><span>Katak</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan5"><span>Ular</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan5"><span>Belalang</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan5" id="s5benar"><span>Elang</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan5"><span>Rumput</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan5"><span>Jamur</span></label>
+                        </td>
+                    </tr>
+
+                    <!-- Soal 6 -->
+                    <tr>
+                        <td>6.</td>
+                        <td class="ratakiri">Makhluk hidup yang berperan sebagai pengurai</td>
+                        <td class="ratakiri" id="pil6">
+                            <label><input type="radio" name="pilihan6" id="s6benar"><span>Jamur</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan6"><span>Elang</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan6"><span>Ular</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan6"><span>Katak</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan6"><span>Belalang</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan6"><span>Rumput</span></label>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <center>
+                    <button class="btnvidio" style="background-color: teal;" onclick="cek();">Cek Jawaban</button>
+                </center>
+            </div>
+        </div>
+        <!-- Next bawah-->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Rantai Makanan 2.html"><div class="Lanjut">Back</div></a>
+            <a href="Piramida Makanan 1.html"><div class="Lanjut aktif_konten">1</div></a>
+            <a href="Latihan 3.html"><div class="Lanjut">Next</div></a>
+        </div>
+        <div class="bawah">
+            <p>Copyright &copy; 2022, Fikry Muhammad (1610131310010)</p>
+            <p>Media Pembelajaran IPA Kelas 5 : Ekosistem</p>
+        </div>
+    </div>
+    <script src="JalanMateri.js"></script>
+    <script src="Piramida Makanan 1 Gambar Zoom.js"></script>
+    <script src="Pertanyaan Piramida Makanan.js"></script>
+    <script src="Tutorial.js"></script>
+</body>
+</html>

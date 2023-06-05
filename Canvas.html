@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rantai Makanan Canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <canvas id="canvas1"></canvas>
+        <!--<img src="overlay.png" alt="overlay" id="overlay">-->
+        <!--<img src="list.png" alt="list" id="list">
+        <img src="circle-256.png" alt="circle1" id="circle1">
+        <img src="circle-256.png" alt="circle2" id="circle2">-->
+        <a href="Piramida Makanan 1.html"><img src="Home32.png" alt="home" id="home"></a>
+        <img src="question32.png" alt="tanya" id="tanya">
+        <img src="leaves_left.png" alt="leaves_left" id="leaves_left">
+        <img src="leaves_right.png" alt="leaves_right" id="leaves_right">
+        <div class="bungkus">
+            <div class="depan">
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+                  <!--<div draggable="true" ondragstart="drag(event)" id="drag"></div>-->
+                  <!--<img draggable="true" ondragstart="drag(event)" id="drag" src="foot.png">-->
+                </div>
+            </div>
+            <div class="depan">
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+            <div class="depan">
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+            <div class="depan">
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+            <div class="depankanan"></div> 
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            
+            <center><h1>Burung Hantu</h1></center>
+            <img src="Komponen Ekosistem.png" align="left" width="200px">
+            <p>Mereka berburu mamalia kecil dan burung, tetapi terkadang juga memakan invertebrata.</p>
+            <!--<img draggable="true" ondragstart="drag(event)" id="drag" src="foot.png">-->
+        </div>
+        <div class="bawah">
+            <div class="xob1">
+                <div class="xob2">
+                    <div class="xob3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img draggable="true" ondragstart="drag(event)" id="drag" src="foot.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="shadowdog.png" class="dog" id="shadowdog">
+    
+    <img src="owlbear.png" alt="owlbear" id="owlbear">
+
+    <script src="script.js"></script>
+</body>
+</html>

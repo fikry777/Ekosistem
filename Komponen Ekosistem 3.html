@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKOSISTEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Materi.css">
+</head>
+
+<body>   
+    <div class="semua">
+        <!-- Header -->
+        <div class="atas">
+            <h1>EKOSISTEM</h1>
+        </div>
+        <div class="menu">
+            <div class="ham">
+                <a href="#"><img src="hamburger42.png"></a>
+            </div>
+            <div class="home">
+                <a href="Home.html"><img src="Home32.png"></a>
+            </div>
+        </div>
+        <div class="sidenav" id="sidenav">
+            <button class="dropdown-btn">A. Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container" id="sistem">
+                    <a href="Materi.html">1. Jenis Ekosistem</a>
+                    <a href="Komponen Ekosistem.html" class="hidup">2. Komponen Ekosistem</a>
+                    <a href="Latihan 1.html">Kuis 1</a>
+                </div>
+            <button class="dropdown-btn">B. Hubungan Antarmakhluk Hidup<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a onclick="materi2()">1. Simbiosis<img src="Kunci24.png"></a>
+                    <a onclick="materi22()">2. Penggolongan Hewan Berdasarkan Jenis Makanannya<img src="Kunci24.png"></a>
+                    <a onclick="kuis2()">Kuis 2<img src="Kunci24.png"></a>
+                </div>
+            <button class="dropdown-btn">C. Keseimbangan Ekosistem<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a onclick="materi3()">1. Rantai Makanan dan Jaring-jaring Makanan<img src="Kunci24.png"></a>
+                    <a onclick="materi32()">2. Piramida Makanan<img src="Kunci24.png"></a>
+                    <a onclick="kuis3()">Kuis 3<img src="Kunci24.png"></a>
+                </div>
+                <a onclick="evaluasi()">Evaluasi<img src="Kunci24.png"></a>
+        </div>
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center>
+                <h2>Ekosistem</h2>
+            </center>
+        </div>
+        <!-- Isi -->
+        <div class="konten" id="konten">
+            <!-- Tujuan -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                    <p>Tujuan Pembelajaran</p>
+                </nav>
+                <div class="atasa">
+                    <div class="tujuan">
+                        <ol>
+                            <li>Siswa mampu menjelaskan apa itu komponen ekosistem.</li>
+                            <li>Siswa mampu mengidentifikasi jenis-jenis komponen ekosistem.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3>Ayo Jawab</h3>
+            <div class="latihan">
+                <div class="petunjuk">
+                    <b>Petunjuk :</b><br><br>
+                    <ol>
+                        <li>Pilihlah salah satu jawaban yang termasuk kedalam.</li>
+                        <li>Klik pada salah satu tombol untuk memilih jawaban.</li>
+                        <li>Jika jawaban benar maka akan muncul.</li>
+                        <li>Jika jawaban salah maka akan muncul.</li>
+                    </ol>
+                </div>
+                <br> <br>
+                <p><b>Simak pertanyaan tentang komponen ekosistem berikut ini!</b></p>
+                <br>
+                <table class="tblprmd">
+                    <tr>
+                        <th class="nomor">No.</th>
+                        <th class="pert"><center>Pertanyaan</center></th>
+                        <th class="jawa">Jawaban</th>
+                    </tr>
+                    <!-- Soal 1 -->
+                    <tr>
+                        <td>1.</td>
+                        <td class="ratakiri">Yang ke dalam termasuk komponen abiotik adalah ....</td>
+                        <td class="ratakiri" id="pil1">
+                            <label><input type="radio" name="pilihan1" id="s1benar"><span>Udara</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan1"><span>Tumbuhan</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan1"><span>Hewan</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan1"><span>Manusia</span></label>
+                        </td>
+                    </tr>
+
+                    <!-- Soal 2 -->
+                    <tr>
+                        <td>2.</td>
+                        <td class="ratakiri">Yang ke dalam termasuk komponen biotik adalah ....</td>
+                        <td class="ratakiri" id="pil2">
+                            <label><input type="radio" name="pilihan2"><span>Tanah</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan2"><span>Udara</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan2"><span>Air</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan2" id="s2benar"><span>Tumbuhan</span></label>
+                        </td>
+                    </tr>
+
+                    <!-- Soal 3 -->
+                    <tr>
+                        <td>3.</td>
+                        <td class="ratakiri">Satu makhluk hidup disebut juga dengan ...</td>
+                        <td class="ratakiri" id="pil3">
+                            <label><input type="radio" name="pilihan3"><span>Komunitas</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan3"><span>Populasi</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan3" id="s3benar"><span>Individu</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan3"><span>Ekosistem</span></label>
+                        </td>
+                    </tr>
+
+                    <!-- Soal 4 -->
+                    <tr>
+                        <td>4.</td>
+                        <td class="ratakiri">Kumpulan individu yang sejenis disebut dengan ...</td>
+                        <td class="ratakiri" id="pil4">
+                            <label><input type="radio" name="pilihan4"><span>Komunitas</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan4" id="s4benar"><span>Populasi</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan4"><span>Ekosistem</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan4"><span>Individu</span></label>
+                        </td>
+                    </tr>
+
+                    <!-- Soal 5 -->
+                    <tr>
+                        <td>5.</td>
+                        <td class="ratakiri">Kumpulan populasi disebut juga dengan ...</td>
+                        <td class="ratakiri" id="pil5">
+                            <label><input type="radio" name="pilihan5"><span>Populasi</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan5"><span>Ekosistem</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan5"><span>Individu</span></label>
+                            <br>
+                            <label><input type="radio" name="pilihan5" id="s5benar"><span>Komunitas</span></label>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <center>
+                    <button class="btnvidio" style="background-color: teal;" onclick="cek();">Cek Jawaban</button>
+                </center>
+            </div>
+        </div>
+        <!-- Next bawah-->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Komponen Ekosistem 2.html"><div class="Lanjut">Back</div></a>
+            <a href="Komponen Ekosistem.html"><div class="Lanjut">1</div></a>
+            <a href="Komponen Ekosistem 2.html"><div class="Lanjut">2</div></a>
+            <a href="Komponen Ekosistem 3.html"><div class="Lanjut aktif_konten">3</div></a>
+            <a href="Latihan 1.html"><div class="Lanjut">Next</div></a>
+        </div>
+        <div class="bawah">
+            <p>Copyright &copy; 2022, Fikry Muhammad (1610131310010)</p>
+            <p>Media Pembelajaran IPA Kelas 5 : Ekosistem</p>
+        </div>
+    </div>
+    <script src="JalanMateri.js"></script>
+    <script src="Komponen Ekosistem 3 Gambar Zoom.js"></script>
+    <script src="Pertanyaan Komponen Ekosistem.js"></script>
+    <script src="Tutorial.js"></script>
+</body>
+</html>

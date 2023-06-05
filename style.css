@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper {
+    width: 1366px;
+    height: 657px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+canvas {
+    background: url('Forest.png');
+}
+/*#overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}*/
+/*#list {
+    position: absolute;
+    top: 84%;
+    width: 100%;
+    pointer-events: none;
+}
+#circle1 {
+    position: absolute;
+    top: 500px;
+    width: 150px;
+    left: 200px;
+}
+#circle2 {
+    position: absolute;
+    top: 500px;
+    width: 150px;
+    left: 355px;
+}*/
+#home {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    left: 15px;
+    background: blue;
+    padding: 4px;
+}
+#home:hover {
+    background: orange;
+}
+#tanya {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 15px;
+    background: blue;
+    padding: 4px;
+}
+#tanya:hover {
+    background: orange;
+}
+#leaves_left {
+    position: absolute;
+    top: 50px;
+    left: -100px;
+    transition: 0.3s;
+    animation: wobble ease-in-out 1.5s infinite;
+    pointer-events: none;
+}
+#leaves_right {
+    position: absolute;
+    top: 50px;
+    right: -100px;
+    transition: 0.2s;
+    animation: wobble ease-in-out 1.6s infinite;
+    pointer-events: none;
+}
+canvas:hover ~ #leaves_left {
+    left: -150px;
+    transform: rotate(15deg);
+}
+canvas:hover ~ #leaves_right {
+    right: -180px;
+    transform: rotate(-15deg);
+}
+@keyframes wobble {
+    0% {top: 50px;}
+    50% {top: 56px;}
+    100% {top: 50px;}
+}
+#shadowdog {
+    display: none;
+    cursor: pointer;
+}
+#owlbear {
+    display: none;
+    cursor: pointer;
+}
+
+.bungkus{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    padding: 0px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+  }
+  .depan {
+    background: #6ECB63;
+    border-radius: 50%;
+  }
+  .depankanan {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    background: orange;
+  }
+  .box {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 3px #A0D995 dashed;
+  }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 75px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+    background-color: #C0EDA6;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    border: 1px solid #888;
+    width: 36%;
+}
+.bawah {
+    background-color: white;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #888;
+    width: 36%;
+    border-top: 2px dotted rgb(3, 31, 75);
+    
+}
+.close {
+    float: right;
+    background: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    background: orange;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+p {
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+}

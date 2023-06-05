@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A0D995;
+}
+
+.header {
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #6ECB63;
+    box-shadow: 0px 1px 2px 1px #61B15A;
+}
+
+.border {
+    border: 3px solid #6ECB63;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.listkembali {
+    margin: 10px 10px;
+    margin-bottom: 0;
+}
+
+.kembali {
+    background-image: url('Back24New.png');
+    background-position: 4px 8px;
+    background-repeat: no-repeat;
+    background-color: white;
+    color: #6ECB63;
+    border: 2px solid #00BD56;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.kembali:hover {
+    background-color: #00BD56;
+    border-color: #00BD56;
+    color: #fff;
+}
+
+.mid {
+    display: flex!important;
+    justify-content: space-evenly;
+}

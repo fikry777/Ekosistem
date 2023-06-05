@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nilai Siswa</title>
+    <link rel="stylesheet" type="text/css" href="hasil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="header">
+            <h2>Nilai Siswa</h2>
+        </div>
+        <!-- <br> -->
+        <button type="button" class="kembali" style="width: fit-content;margin: 10px 10px;" onclick="location.href='Page Guru.html'">&nbsp;&nbsp;&nbsp;Kembali</button>
+
+        <div class="card-body">
+            <div class="kolom">
+                <center> 
+                    <label for="nama">Hasil : 
+                        <select id="kuis" name="kuis" class="mundur">
+                            <option value="kuis1/" selected="selected">KUIS 1</option>
+                            <option value="kuis2/">KUIS 2</option>
+                            <option value="kuis3/">KUIS 3</option>
+                            <option value="evaluasi/">EVALUASI</option>
+                        </select>
+                    </label>
+                    <label for="nama">Kelas : 
+                        <select id="kelas" name="kelas" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                            <option value="0" selected="selected">-- PILIH KELAS --</option>
+                            <option value="1">V A</option>
+                        </select>
+                    </label>
+                    <button type="button" class="search" onclick="mencari()">&nbsp;&nbsp;&nbsp;Cari</button>
+                    <button type="button" class="download" onclick="downloadfile()">&nbsp;&nbsp;&nbsp;&nbsp;Download</button>  
+            </div>
+                <br>
+                    <div class="border">
+                        <!-- <div class="items-controller">
+                            <p>Tampilkan</p>
+                            <select name="" id="itemperpage">
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="08" selected>08</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                            </select>
+                            <p>Per Halaman</p>
+                        </div> -->
+                        <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Cari nama.." title="Type in a name"> -->
+                        <center>
+                            <table id="table_wrapper" class="table table-striped table-bordered" style="width:100%">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th class="ukr1">Nama</th>
+                                        <th class="ukr3">Kelas</th>
+                                        <th class="ukr1">Sekolah</th>
+                                        <th class="ukr3">Skor</th>
+                                        <th class="ukr2">Hari</th>
+                                        <th class="ukr2">Waktu</th>
+                                        <th class="ukr4">Hapus</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="disini"></tbody>
+                            </table>
+                        </center>
+                        <!-- <div class="bottom-field">
+                            <ul class="pagination">
+                                <li class="prev"><a href="#" id="prev">&#139;</a></li>
+                                <li class="list"><a href="#">01</a></li>
+                                <li class="list"><a href="#">02</a></li>
+                                <li class="list"><a href="#">03</a></li>
+                                <li class="next"><a href="#" id="next">&#155;</a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                <br>
+                        <center class="center"> </center>
+                </center>
+                            <p class=" clear"></p>
+                            
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap4.min.js"></script>
+<!-- <script type="text/javascript">
+    $(document).ready(function () {
+        $('#example').DataTable();
+    });
+</script> -->
+<!-- <script src="search.js"></script>
+<script src="Page.js"></script> -->
+</body>
+</html> 
